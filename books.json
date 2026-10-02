@@ -59,6 +59,15 @@
       "slug": "beyond-good-and-evil",
       "summary_pdf": "assets/summaries/beyond-good-and-evil.pdf",
       "title": "Beyond Good and Evil"
+    },
+    {
+      "summary_pdf": "assets/summaries/thinking-fast-and-slow.pdf",
+      "author": "Daniel Kahneman",
+      "blurb": "Kahneman maps the mind's two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.",
+      "date": "2026-10-02",
+      "episode": 7,
+      "slug": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow"
     }
   ],
   "series": "Zains Morning Commute Books",
