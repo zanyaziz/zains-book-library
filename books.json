@@ -1,1 +1,87 @@
-{"books": [{"audio": "assets/audio/zarathustra.mp3", "author": "Friedrich Nietzsche", "blurb": "Nietzsche's prophet descends from the mountain with the \u00dcbermensch, the will to power, and the eternal recurrence \u2014 a poetic manifesto for creating your own values.", "date": "2026-09-27", "episode": 1, "slug": "zarathustra", "summary_pdf": "assets/summaries/zarathustra.pdf", "title": "Thus Spoke Zarathustra"}, {"audio": "assets/audio/karamazov.mp3", "author": "Fyodor Dostoevsky", "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family \u2014 Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.", "date": "2026-09-27", "episode": 2, "slug": "karamazov", "summary_pdf": "assets/summaries/karamazov.pdf", "title": "The Brothers Karamazov"}, {"audio": "assets/audio/conquest-of-happiness.mp3", "author": "Bertrand Russell", "blurb": "Russell diagnoses the modern causes of unhappiness \u2014 competition, boredom, fatigue, envy \u2014 and prescribes zest, affection, and impersonal interests as the way out.", "date": "2026-09-28", "episode": 3, "slug": "conquest-of-happiness", "summary_pdf": "assets/summaries/conquest-of-happiness.pdf", "title": "The Conquest of Happiness"}, {"audio": "assets/audio/republic.mp3", "author": "Plato", "blurb": "Socrates asks what justice is and builds an ideal city to find the answer \u2014 the founding text of Western political philosophy, with the allegory of the cave at its heart.", "date": "2026-09-29", "episode": 4, "slug": "republic", "summary_pdf": "assets/summaries/republic.pdf", "title": "The Republic"}, {"audio": "assets/audio/alchemist.mp3", "author": "Paulo Coelho", "blurb": "Santiago the shepherd follows his Personal Legend across the desert \u2014 a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.", "date": "2026-09-30", "episode": 5, "slug": "alchemist", "summary_pdf": "assets/summaries/alchemist.pdf", "title": "The Alchemist"}, {"audio": "assets/audio/beyond-good-and-evil.mp3", "author": "Friedrich Nietzsche", "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' \u2014 master vs. slave morality, the will to power, and philosophy with a hammer.", "date": "2026-10-01", "episode": 6, "slug": "beyond-good-and-evil", "summary_pdf": "assets/summaries/beyond-good-and-evil.pdf", "title": "Beyond Good and Evil"}], "series": "Zain's Morning Commute \u2014 Top 10 Books", "upcoming": [{"author": "Fyodor Dostoevsky", "episode": 7, "title": "Crime and Punishment"}, {"author": "Yuval Noah Harari", "episode": 8, "title": "Sapiens"}, {"author": "Sun Tzu", "episode": 9, "title": "The Art of War"}, {"author": "Lao-Tzu", "episode": 10, "title": "Tao Te Ching"}]}
+{
+  "books": [
+    {
+      "audio": "assets/audio/zarathustra.mp3",
+      "author": "Friedrich Nietzsche",
+      "blurb": "Nietzsche's prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.",
+      "date": "2026-09-27",
+      "episode": 1,
+      "slug": "zarathustra",
+      "summary_pdf": "assets/summaries/zarathustra.pdf",
+      "title": "Thus Spoke Zarathustra"
+    },
+    {
+      "audio": "assets/audio/karamazov.mp3",
+      "author": "Fyodor Dostoevsky",
+      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
+      "date": "2026-09-27",
+      "episode": 2,
+      "slug": "karamazov",
+      "summary_pdf": "assets/summaries/karamazov.pdf",
+      "title": "The Brothers Karamazov"
+    },
+    {
+      "audio": "assets/audio/conquest-of-happiness.mp3",
+      "author": "Bertrand Russell",
+      "blurb": "Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.",
+      "date": "2026-09-28",
+      "episode": 3,
+      "slug": "conquest-of-happiness",
+      "summary_pdf": "assets/summaries/conquest-of-happiness.pdf",
+      "title": "The Conquest of Happiness"
+    },
+    {
+      "audio": "assets/audio/republic.mp3",
+      "author": "Plato",
+      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.",
+      "date": "2026-09-29",
+      "episode": 4,
+      "slug": "republic",
+      "summary_pdf": "assets/summaries/republic.pdf",
+      "title": "The Republic"
+    },
+    {
+      "audio": "assets/audio/alchemist.mp3",
+      "author": "Paulo Coelho",
+      "blurb": "Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
+      "date": "2026-09-30",
+      "episode": 5,
+      "slug": "alchemist",
+      "summary_pdf": "assets/summaries/alchemist.pdf",
+      "title": "The Alchemist"
+    },
+    {
+      "audio": "assets/audio/beyond-good-and-evil.mp3",
+      "author": "Friedrich Nietzsche",
+      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' — master vs. slave morality, the will to power, and philosophy with a hammer.",
+      "date": "2026-10-01",
+      "episode": 6,
+      "slug": "beyond-good-and-evil",
+      "summary_pdf": "assets/summaries/beyond-good-and-evil.pdf",
+      "title": "Beyond Good and Evil"
+    }
+  ],
+  "series": "Zains Morning Commute Books",
+  "upcoming": [
+    {
+      "author": "Fyodor Dostoevsky",
+      "episode": 7,
+      "title": "Crime and Punishment"
+    },
+    {
+      "author": "Yuval Noah Harari",
+      "episode": 8,
+      "title": "Sapiens"
+    },
+    {
+      "author": "Sun Tzu",
+      "episode": 9,
+      "title": "The Art of War"
+    },
+    {
+      "author": "Lao-Tzu",
+      "episode": 10,
+      "title": "Tao Te Ching"
+    }
+  ]
+}
