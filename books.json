@@ -87,6 +87,46 @@
       "episode": 11,
       "title": "Tao Te Ching",
       "author": "Lao-Tzu"
+    },
+    {
+      "episode": 12,
+      "title": "Darwaish",
+      "author": ""
+    },
+    {
+      "episode": 13,
+      "title": "The Forty Rules of Love",
+      "author": "Elif Shafak"
+    },
+    {
+      "episode": 14,
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles"
+    },
+    {
+      "episode": 15,
+      "title": "10% Happier",
+      "author": "Dan Harris"
+    },
+    {
+      "episode": 16,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle"
+    },
+    {
+      "episode": 17,
+      "title": "Nexus",
+      "author": "Yuval Noah Harari"
+    },
+    {
+      "episode": 18,
+      "title": "The Anarchy",
+      "author": "William Dalrymple"
+    },
+    {
+      "episode": 19,
+      "title": "1984",
+      "author": "George Orwell"
     }
   ]
 }
