@@ -26,7 +26,7 @@ def card(b):
     </article>"""
 
 upcoming = "\n".join(
-    f"<li><span class='ep-sm'>#{u['episode']}</span> <strong>{html.escape(u['title'])}</strong> — {html.escape(u['author'])}</li>"
+    f"<li><span class='ep-sm'>#{u['episode']}</span> <strong>{html.escape(u['title'])}</strong>{' — ' + html.escape(u['author']) if u.get('author') else ''}</li>"
     for u in data["upcoming"]
 )
 

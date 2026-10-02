@@ -3,7 +3,7 @@
     {
       "audio": "assets/audio/zarathustra.mp3",
       "author": "Friedrich Nietzsche",
-      "blurb": "Nietzsche's prophet descends from the mountain with the \u00dcbermensch, the will to power, and the eternal recurrence \u2014 a poetic manifesto for creating your own values.",
+      "blurb": "Nietzsche's prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.",
       "date": "2026-09-27",
       "episode": 1,
       "slug": "zarathustra",
@@ -13,7 +13,7 @@
     {
       "audio": "assets/audio/karamazov.mp3",
       "author": "Fyodor Dostoevsky",
-      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family \u2014 Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
+      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
       "date": "2026-09-27",
       "episode": 2,
       "slug": "karamazov",
@@ -23,7 +23,7 @@
     {
       "audio": "assets/audio/conquest-of-happiness.mp3",
       "author": "Bertrand Russell",
-      "blurb": "Russell diagnoses the modern causes of unhappiness \u2014 competition, boredom, fatigue, envy \u2014 and prescribes zest, affection, and impersonal interests as the way out.",
+      "blurb": "Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.",
       "date": "2026-09-28",
       "episode": 3,
       "slug": "conquest-of-happiness",
@@ -33,7 +33,7 @@
     {
       "audio": "assets/audio/republic.mp3",
       "author": "Plato",
-      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer \u2014 the founding text of Western political philosophy, with the allegory of the cave at its heart.",
+      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.",
       "date": "2026-09-29",
       "episode": 4,
       "slug": "republic",
@@ -43,7 +43,7 @@
     {
       "audio": "assets/audio/alchemist.mp3",
       "author": "Paulo Coelho",
-      "blurb": "Santiago the shepherd follows his Personal Legend across the desert \u2014 a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
+      "blurb": "Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
       "date": "2026-09-30",
       "episode": 5,
       "slug": "alchemist",
@@ -53,7 +53,7 @@
     {
       "audio": "assets/audio/beyond-good-and-evil.mp3",
       "author": "Friedrich Nietzsche",
-      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' \u2014 master vs. slave morality, the will to power, and philosophy with a hammer.",
+      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' — master vs. slave morality, the will to power, and philosophy with a hammer.",
       "date": "2026-10-01",
       "episode": 6,
       "slug": "beyond-good-and-evil",
@@ -63,11 +63,6 @@
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 7,
-      "title": "Thinking, Fast and Slow",
-      "author": "Daniel Kahneman"
-    },
     {
       "episode": 8,
       "title": "Crime and Punishment",
@@ -90,8 +85,7 @@
     },
     {
       "episode": 12,
-      "title": "Darwaish",
-      "author": ""
+      "title": "Darwaish"
     },
     {
       "episode": 13,
@@ -127,6 +121,126 @@
       "episode": 19,
       "title": "1984",
       "author": "George Orwell"
+    },
+    {
+      "episode": 20,
+      "title": "The Better Angels of Our Nature",
+      "author": "Steven Pinker"
+    },
+    {
+      "episode": 21,
+      "title": "Paper Girl",
+      "author": "Beth Macy"
+    },
+    {
+      "episode": 22,
+      "title": "The Loneliness of Sonia and Sunny",
+      "author": "Kiran Desai"
+    },
+    {
+      "episode": 23,
+      "title": "Factfulness",
+      "author": "Hans Rosling"
+    },
+    {
+      "episode": 24,
+      "title": "Flashlight",
+      "author": "Susan Choi"
+    },
+    {
+      "episode": 25,
+      "title": "A Marriage at Sea",
+      "author": "Sophie Elmhirst"
+    },
+    {
+      "episode": 26,
+      "title": "Business Adventures",
+      "author": "John Brooks"
+    },
+    {
+      "episode": 27,
+      "title": "1929",
+      "author": "Andrew Ross Sorkin"
+    },
+    {
+      "episode": 28,
+      "title": "Stone Yard Devotional",
+      "author": "Charlotte Wood"
+    },
+    {
+      "episode": 29,
+      "title": "Range",
+      "author": "David Epstein"
+    },
+    {
+      "episode": 30,
+      "title": "We the People",
+      "author": "Jill Lepore"
+    },
+    {
+      "episode": 31,
+      "title": "Mother Emanuel",
+      "author": "Kevin Sack"
+    },
+    {
+      "episode": 32,
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman"
+    },
+    {
+      "episode": 33,
+      "title": "What We Can Know",
+      "author": "Ian McEwan"
+    },
+    {
+      "episode": 34,
+      "title": "Wild Thing",
+      "author": "Sue Prideaux"
+    },
+    {
+      "episode": 35,
+      "title": "The Inner Game of Tennis",
+      "author": "Timothy Gallwey"
+    },
+    {
+      "episode": 36,
+      "title": "There Is No Place for Us",
+      "author": "Brian Goldstone"
+    },
+    {
+      "episode": 37,
+      "title": "The Anxious Generation",
+      "author": "Jonathan Haidt"
+    },
+    {
+      "episode": 38,
+      "title": "Angel Down",
+      "author": "Daniel Kraus"
+    },
+    {
+      "episode": 39,
+      "title": "Dead and Alive",
+      "author": "Zadie Smith"
+    },
+    {
+      "episode": 40,
+      "title": "Grand Transitions",
+      "author": "Vaclav Smil"
+    },
+    {
+      "episode": 41,
+      "title": "Mother Mary Comes to Me",
+      "author": "Arundhati Roy"
+    },
+    {
+      "episode": 42,
+      "title": "Abundance",
+      "author": "Ezra Klein & Derek Thompson"
+    },
+    {
+      "episode": 43,
+      "title": "Stranger in a Strange Land",
+      "author": "Robert Heinlein"
     }
   ]
 }
