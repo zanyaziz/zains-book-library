@@ -69,15 +69,20 @@
       "slug": "thinking-fast-and-slow",
       "title": "Thinking, Fast and Slow",
       "audio": "assets/audio/thinking-fast-and-slow.mp3"
+    },
+    {
+      "episode": 8,
+      "slug": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "blurb": "# Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.",
+      "date": "2026-10-03",
+      "audio": "assets/audio/crime-and-punishment.mp3",
+      "summary_pdf": "assets/summaries/crime-and-punishment.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 8,
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky"
-    },
     {
       "episode": 9,
       "title": "Sapiens",
