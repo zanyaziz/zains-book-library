@@ -3,7 +3,7 @@
     {
       "audio": "assets/audio/zarathustra.mp3",
       "author": "Friedrich Nietzsche",
-      "blurb": "Nietzsche's prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.",
+      "blurb": "Nietzsche's prophet descends from the mountain with the \u00dcbermensch, the will to power, and the eternal recurrence \u2014 a poetic manifesto for creating your own values.",
       "date": "2026-09-27",
       "episode": 1,
       "slug": "zarathustra",
@@ -13,7 +13,7 @@
     {
       "audio": "assets/audio/karamazov.mp3",
       "author": "Fyodor Dostoevsky",
-      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
+      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family \u2014 Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
       "date": "2026-09-27",
       "episode": 2,
       "slug": "karamazov",
@@ -23,7 +23,7 @@
     {
       "audio": "assets/audio/conquest-of-happiness.mp3",
       "author": "Bertrand Russell",
-      "blurb": "Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.",
+      "blurb": "Russell diagnoses the modern causes of unhappiness \u2014 competition, boredom, fatigue, envy \u2014 and prescribes zest, affection, and impersonal interests as the way out.",
       "date": "2026-09-28",
       "episode": 3,
       "slug": "conquest-of-happiness",
@@ -33,7 +33,7 @@
     {
       "audio": "assets/audio/republic.mp3",
       "author": "Plato",
-      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.",
+      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer \u2014 the founding text of Western political philosophy, with the allegory of the cave at its heart.",
       "date": "2026-09-29",
       "episode": 4,
       "slug": "republic",
@@ -43,7 +43,7 @@
     {
       "audio": "assets/audio/alchemist.mp3",
       "author": "Paulo Coelho",
-      "blurb": "Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
+      "blurb": "Santiago the shepherd follows his Personal Legend across the desert \u2014 a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
       "date": "2026-09-30",
       "episode": 5,
       "slug": "alchemist",
@@ -53,7 +53,7 @@
     {
       "audio": "assets/audio/beyond-good-and-evil.mp3",
       "author": "Friedrich Nietzsche",
-      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' — master vs. slave morality, the will to power, and philosophy with a hammer.",
+      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' \u2014 master vs. slave morality, the will to power, and philosophy with a hammer.",
       "date": "2026-10-01",
       "episode": 6,
       "slug": "beyond-good-and-evil",
@@ -63,7 +63,7 @@
     {
       "summary_pdf": "assets/summaries/thinking-fast-and-slow.pdf",
       "author": "Daniel Kahneman",
-      "blurb": "Kahneman maps the mind's two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.",
+      "blurb": "Kahneman maps the mind's two gears \u2014 fast intuition and slow reasoning \u2014 and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.",
       "date": "2026-10-02",
       "episode": 7,
       "slug": "thinking-fast-and-slow",
@@ -75,7 +75,7 @@
       "slug": "crime-and-punishment",
       "title": "Crime and Punishment",
       "author": "Fyodor Dostoevsky",
-      "blurb": "# Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.",
+      "blurb": "# Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) \u2014 Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.",
       "date": "2026-10-03",
       "audio": "assets/audio/crime-and-punishment.mp3",
       "summary_pdf": "assets/summaries/crime-and-punishment.pdf"
@@ -85,7 +85,7 @@
       "slug": "sapiens",
       "title": "Sapiens",
       "author": "Yuval Noah Harari",
-      "blurb": "*Sapiens* asks a deceptively simple question: How did *Homo sapiens*, just one of several human species and for most of its existence a marginal animal with no more impact on the planet than a jellyfish or a gorilla, end up building cities, corporations, religions, and rockets?",
+      "blurb": "Sapiens asks how Homo sapiens, once a marginal ape among several human species, came to build cities, money, empires, and rockets \u2014 by believing shared stories and cooperating at scale.",
       "date": "2026-10-04",
       "audio": "assets/audio/sapiens.mp3",
       "summary_pdf": "assets/summaries/sapiens.pdf"
