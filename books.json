@@ -89,15 +89,20 @@
       "date": "2026-10-04",
       "audio": "assets/audio/sapiens.mp3",
       "summary_pdf": "assets/summaries/sapiens.pdf"
+    },
+    {
+      "episode": 10,
+      "slug": "art-of-war",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "date": "2026-10-05",
+      "audio": "assets/audio/art-of-war.mp3",
+      "summary_pdf": "assets/summaries/art-of-war.pdf",
+      "blurb": "The Art of War is a manual for armed conflict written in China roughly two thousand five hundred years ago \u2014 and it is mostly famous for arguing that the best war is the one you never fight."
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 10,
-      "title": "The Art of War",
-      "author": "Sun Tzu"
-    },
     {
       "episode": 11,
       "title": "Tao Te Ching",
