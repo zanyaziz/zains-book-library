@@ -109,15 +109,20 @@
       "date": "2026-10-06",
       "audio": "assets/audio/tao-te-ching.mp3",
       "summary_pdf": "assets/summaries/tao-te-ching.pdf"
+    },
+    {
+      "episode": 12,
+      "slug": "forty-rules-of-love",
+      "title": "The Forty Rules of Love",
+      "author": "Elif Shafak",
+      "date": "2026-10-07",
+      "audio": "assets/audio/forty-rules-of-love.mp3",
+      "summary_pdf": "assets/summaries/forty-rules-of-love.pdf",
+      "blurb": "Elif Shafak's million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time."
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 12,
-      "title": "The Forty Rules of Love",
-      "author": "Elif Shafak"
-    },
     {
       "episode": 13,
       "title": "A Gentleman in Moscow",
