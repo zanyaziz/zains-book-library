@@ -38,6 +38,16 @@
   .upcoming li { padding:.4rem 0; border-bottom:1px solid #2e2a21; }
   .upcoming li:last-child { border-bottom:none; }
   .ep-sm { color:var(--accent); font-weight:600; margin-right:.4rem; }
+  .pager { display:flex; gap:.6rem; align-items:center; justify-content:center;
+           margin:1.75rem 0 .4rem; flex-wrap:wrap; }
+  .pager button { cursor:pointer; padding:.55rem 1rem; border-radius:10px; font-size:.95rem;
+                   border:1px solid #3a352a; color:var(--ink); font-family:inherit; }
+  .pager button.ghost { background:var(--card); }
+  .pager button:disabled { opacity:.35; cursor:default; }
+  .pager .page-num { background:transparent; min-width:2.5rem; }
+  .pager .page-num.active { background:var(--accent); color:#1a1408; border-color:var(--accent);
+                             font-weight:600; }
+  .page-info { text-align:center; color:var(--muted); font-size:.85rem; margin:0 0 1.5rem; }
   footer { text-align:center; color:var(--muted); font-size:.85rem; padding:2rem 1rem; }
 </style>
 </head>
@@ -48,126 +58,19 @@
   <p class="sub">One book a day — a ~30-minute Maya &amp; Dev podcast episode plus a 20-minute read summary.</p>
 </header>
 <main>
+<section id="episodes" aria-label="Episodes">
 
     <article class="card">
-      <div class="ep">Episode 1</div>
-      <h2>Thus Spoke Zarathustra</h2>
-      <p class="author">Friedrich Nietzsche</p>
-      <p class="blurb">Nietzsche&#x27;s prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.</p>
-      <audio controls preload="none" src="assets/audio/zarathustra.mp3"></audio>
+      <div class="ep">Episode 12</div>
+      <h2>The Forty Rules of Love</h2>
+      <p class="author">Elif Shafak</p>
+      <p class="blurb">Elif Shafak&#x27;s million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time.</p>
+      <audio controls preload="none" src="assets/audio/forty-rules-of-love.mp3"></audio>
       <div class="actions">
-        <a class="btn primary" href="assets/summaries/zarathustra.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/zarathustra.mp3" download>⬇ Download episode (MP3)</a>
+        <a class="btn primary" href="assets/summaries/forty-rules-of-love.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/forty-rules-of-love.mp3" download>⬇ Download episode (MP3)</a>
       </div>
-      <p class="date">Delivered 2026-09-27</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 2</div>
-      <h2>The Brothers Karamazov</h2>
-      <p class="author">Fyodor Dostoevsky</p>
-      <p class="blurb">Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky&#x27;s final and greatest novel on the struggle between good and evil in the human soul.</p>
-      <audio controls preload="none" src="assets/audio/karamazov.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/karamazov.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/karamazov.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-09-27</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 3</div>
-      <h2>The Conquest of Happiness</h2>
-      <p class="author">Bertrand Russell</p>
-      <p class="blurb">Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.</p>
-      <audio controls preload="none" src="assets/audio/conquest-of-happiness.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/conquest-of-happiness.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/conquest-of-happiness.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-09-28</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 4</div>
-      <h2>The Republic</h2>
-      <p class="author">Plato</p>
-      <p class="blurb">Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.</p>
-      <audio controls preload="none" src="assets/audio/republic.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/republic.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/republic.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-09-29</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 5</div>
-      <h2>The Alchemist</h2>
-      <p class="author">Paulo Coelho</p>
-      <p class="blurb">Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.</p>
-      <audio controls preload="none" src="assets/audio/alchemist.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/alchemist.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/alchemist.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-09-30</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 6</div>
-      <h2>Beyond Good and Evil</h2>
-      <p class="author">Friedrich Nietzsche</p>
-      <p class="blurb">Nietzsche dismantles the prejudices of philosophers and sketches the &#x27;free spirit&#x27; — master vs. slave morality, the will to power, and philosophy with a hammer.</p>
-      <audio controls preload="none" src="assets/audio/beyond-good-and-evil.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/beyond-good-and-evil.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/beyond-good-and-evil.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-10-01</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 7</div>
-      <h2>Thinking, Fast and Slow</h2>
-      <p class="author">Daniel Kahneman</p>
-      <p class="blurb">Kahneman maps the mind&#x27;s two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.</p>
-      <audio controls preload="none" src="assets/audio/thinking-fast-and-slow.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/thinking-fast-and-slow.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/thinking-fast-and-slow.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-10-02</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 8</div>
-      <h2>Crime and Punishment</h2>
-      <p class="author">Fyodor Dostoevsky</p>
-      <p class="blurb"># Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.</p>
-      <audio controls preload="none" src="assets/audio/crime-and-punishment.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/crime-and-punishment.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/crime-and-punishment.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-10-03</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 9</div>
-      <h2>Sapiens</h2>
-      <p class="author">Yuval Noah Harari</p>
-      <p class="blurb">Sapiens asks how Homo sapiens, once a marginal ape among several human species, came to build cities, money, empires, and rockets — by believing shared stories and cooperating at scale.</p>
-      <audio controls preload="none" src="assets/audio/sapiens.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/sapiens.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/sapiens.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-10-04</p>
-    </article>
-    <article class="card">
-      <div class="ep">Episode 10</div>
-      <h2>The Art of War</h2>
-      <p class="author">Sun Tzu</p>
-      <p class="blurb">The Art of War is a manual for armed conflict written in China roughly two thousand five hundred years ago — and it is mostly famous for arguing that the best war is the one you never fight.</p>
-      <audio controls preload="none" src="assets/audio/art-of-war.mp3"></audio>
-      <div class="actions">
-        <a class="btn primary" href="assets/summaries/art-of-war.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/art-of-war.mp3" download>⬇ Download episode (MP3)</a>
-      </div>
-      <p class="date">Delivered 2026-10-05</p>
+      <p class="date">Delivered 2026-10-07</p>
     </article>
     <article class="card">
       <div class="ep">Episode 11</div>
@@ -182,17 +85,132 @@
       <p class="date">Delivered 2026-10-06</p>
     </article>
     <article class="card">
-      <div class="ep">Episode 12</div>
-      <h2>The Forty Rules of Love</h2>
-      <p class="author">Elif Shafak</p>
-      <p class="blurb">Elif Shafak&#x27;s million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time.</p>
-      <audio controls preload="none" src="assets/audio/forty-rules-of-love.mp3"></audio>
+      <div class="ep">Episode 10</div>
+      <h2>The Art of War</h2>
+      <p class="author">Sun Tzu</p>
+      <p class="blurb">The Art of War is a manual for armed conflict written in China roughly two thousand five hundred years ago — and it is mostly famous for arguing that the best war is the one you never fight.</p>
+      <audio controls preload="none" src="assets/audio/art-of-war.mp3"></audio>
       <div class="actions">
-        <a class="btn primary" href="assets/summaries/forty-rules-of-love.pdf">📖 Read the 20-minute summary (PDF)</a>
-        <a class="btn" href="assets/audio/forty-rules-of-love.mp3" download>⬇ Download episode (MP3)</a>
+        <a class="btn primary" href="assets/summaries/art-of-war.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/art-of-war.mp3" download>⬇ Download episode (MP3)</a>
       </div>
-      <p class="date">Delivered 2026-10-07</p>
+      <p class="date">Delivered 2026-10-05</p>
     </article>
+    <article class="card">
+      <div class="ep">Episode 9</div>
+      <h2>Sapiens</h2>
+      <p class="author">Yuval Noah Harari</p>
+      <p class="blurb">Sapiens asks how Homo sapiens, once a marginal ape among several human species, came to build cities, money, empires, and rockets — by believing shared stories and cooperating at scale.</p>
+      <audio controls preload="none" src="assets/audio/sapiens.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/sapiens.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/sapiens.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-10-04</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 8</div>
+      <h2>Crime and Punishment</h2>
+      <p class="author">Fyodor Dostoevsky</p>
+      <p class="blurb"># Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.</p>
+      <audio controls preload="none" src="assets/audio/crime-and-punishment.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/crime-and-punishment.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/crime-and-punishment.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-10-03</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 7</div>
+      <h2>Thinking, Fast and Slow</h2>
+      <p class="author">Daniel Kahneman</p>
+      <p class="blurb">Kahneman maps the mind&#x27;s two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.</p>
+      <audio controls preload="none" src="assets/audio/thinking-fast-and-slow.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/thinking-fast-and-slow.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/thinking-fast-and-slow.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-10-02</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 6</div>
+      <h2>Beyond Good and Evil</h2>
+      <p class="author">Friedrich Nietzsche</p>
+      <p class="blurb">Nietzsche dismantles the prejudices of philosophers and sketches the &#x27;free spirit&#x27; — master vs. slave morality, the will to power, and philosophy with a hammer.</p>
+      <audio controls preload="none" src="assets/audio/beyond-good-and-evil.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/beyond-good-and-evil.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/beyond-good-and-evil.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-10-01</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 5</div>
+      <h2>The Alchemist</h2>
+      <p class="author">Paulo Coelho</p>
+      <p class="blurb">Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.</p>
+      <audio controls preload="none" src="assets/audio/alchemist.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/alchemist.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/alchemist.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-09-30</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 4</div>
+      <h2>The Republic</h2>
+      <p class="author">Plato</p>
+      <p class="blurb">Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.</p>
+      <audio controls preload="none" src="assets/audio/republic.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/republic.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/republic.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-09-29</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 3</div>
+      <h2>The Conquest of Happiness</h2>
+      <p class="author">Bertrand Russell</p>
+      <p class="blurb">Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.</p>
+      <audio controls preload="none" src="assets/audio/conquest-of-happiness.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/conquest-of-happiness.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/conquest-of-happiness.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-09-28</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 2</div>
+      <h2>The Brothers Karamazov</h2>
+      <p class="author">Fyodor Dostoevsky</p>
+      <p class="blurb">Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky&#x27;s final and greatest novel on the struggle between good and evil in the human soul.</p>
+      <audio controls preload="none" src="assets/audio/karamazov.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/karamazov.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/karamazov.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-09-27</p>
+    </article>
+    <article class="card">
+      <div class="ep">Episode 1</div>
+      <h2>Thus Spoke Zarathustra</h2>
+      <p class="author">Friedrich Nietzsche</p>
+      <p class="blurb">Nietzsche&#x27;s prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.</p>
+      <audio controls preload="none" src="assets/audio/zarathustra.mp3"></audio>
+      <div class="actions">
+        <a class="btn primary" href="assets/summaries/zarathustra.pdf">📖 Read the 20-minute summary (PDF)</a>
+        <a class="btn" href="assets/audio/zarathustra.mp3" download>⬇ Download episode (MP3)</a>
+      </div>
+      <p class="date">Delivered 2026-09-27</p>
+    </article>
+<nav class="pager" id="pager" aria-label="Episode pages">
+  <button id="prevBtn" class="ghost">← Prev</button>
+  <span id="pageNums"></span>
+  <button id="nextBtn" class="ghost">Next →</button>
+</nav>
+<p class="page-info" id="pageInfo"></p>
+</section>
 <section class="upcoming">
   <h2>📚 Coming up next</h2>
   <ul><li><span class='ep-sm'>#13</span> <strong>A Gentleman in Moscow</strong> — Amor Towles</li>
@@ -228,5 +246,48 @@
 </section>
 </main>
 <footer>Built for the morning commute · new episodes land ~7 AM</footer>
+<script>
+(function(){
+  const PAGE_SIZE = 7;
+  const section = document.getElementById('episodes');
+  const cards = Array.from(section.querySelectorAll('.card'));
+  const pager = document.getElementById('pager');
+  const pageNums = document.getElementById('pageNums');
+  const pageInfo = document.getElementById('pageInfo');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const total = Math.max(1, Math.ceil(cards.length / PAGE_SIZE));
+  let page = 1;
+  const m = location.hash.match(/^#page-(\d+)$/);
+  if (m) { const p = parseInt(m[1], 10); if (p >= 1 && p <= total) page = p; }
+  function render(){
+    cards.forEach((c, i) => {
+      c.style.display = (Math.floor(i / PAGE_SIZE) + 1 === page) ? '' : 'none';
+    });
+    pageNums.innerHTML = '';
+    for (let i = 1; i <= total; i++){
+      const b = document.createElement('button');
+      b.className = 'page-num' + (i === page ? ' active' : '');
+      b.textContent = i;
+      b.setAttribute('aria-label', 'Page ' + i);
+      b.onclick = () => go(i);
+      pageNums.appendChild(b);
+    }
+    prevBtn.disabled = page === 1;
+    nextBtn.disabled = page === total;
+    pageInfo.textContent = 'Page ' + page + ' of ' + total + ' · ' + cards.length + ' episodes';
+    pager.style.display = total > 1 ? '' : 'none';
+  }
+  function go(p){
+    page = p;
+    render();
+    if (history.replaceState) history.replaceState(null, '', p === 1 ? location.pathname : '#page-' + p);
+    section.scrollIntoView();
+  }
+  prevBtn.onclick = () => { if (page > 1) go(page - 1); };
+  nextBtn.onclick = () => { if (page < total) go(page + 1); };
+  render();
+})();
+</script>
 </body>
 </html>
