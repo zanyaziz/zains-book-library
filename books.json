@@ -119,15 +119,20 @@
       "audio": "assets/audio/forty-rules-of-love.mp3",
       "summary_pdf": "assets/summaries/forty-rules-of-love.pdf",
       "blurb": "Elif Shafak's million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time."
+    },
+    {
+      "episode": 13,
+      "slug": "a-gentleman-in-moscow",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "blurb": "# A Gentleman in Moscow — 20-Minute Read Summary *Amor Towles* > \"If a man does not master his circumstances, then he is bound to be mastered by them.\" Some novels are about a person traveling the world.",
+      "date": "2026-10-08",
+      "audio": "assets/audio/a-gentleman-in-moscow.mp3",
+      "summary_pdf": "assets/summaries/a-gentleman-in-moscow.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 13,
-      "title": "A Gentleman in Moscow",
-      "author": "Amor Towles"
-    },
     {
       "episode": 14,
       "title": "10% Happier",
