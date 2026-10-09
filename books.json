@@ -1,292 +1,312 @@
 {
- "books": [
-  {
-   "audio": "assets/audio/zarathustra.mp3",
-   "author": "Friedrich Nietzsche",
-   "blurb": "Nietzsche's prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.",
-   "date": "2026-09-27",
-   "episode": 1,
-   "slug": "zarathustra",
-   "summary_pdf": "assets/summaries/zarathustra.pdf",
-   "title": "Thus Spoke Zarathustra"
-  },
-  {
-   "audio": "assets/audio/karamazov.mp3",
-   "author": "Fyodor Dostoevsky",
-   "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
-   "date": "2026-09-27",
-   "episode": 2,
-   "slug": "karamazov",
-   "summary_pdf": "assets/summaries/karamazov.pdf",
-   "title": "The Brothers Karamazov"
-  },
-  {
-   "audio": "assets/audio/conquest-of-happiness.mp3",
-   "author": "Bertrand Russell",
-   "blurb": "Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.",
-   "date": "2026-09-28",
-   "episode": 3,
-   "slug": "conquest-of-happiness",
-   "summary_pdf": "assets/summaries/conquest-of-happiness.pdf",
-   "title": "The Conquest of Happiness"
-  },
-  {
-   "audio": "assets/audio/republic.mp3",
-   "author": "Plato",
-   "blurb": "Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.",
-   "date": "2026-09-29",
-   "episode": 4,
-   "slug": "republic",
-   "summary_pdf": "assets/summaries/republic.pdf",
-   "title": "The Republic"
-  },
-  {
-   "audio": "assets/audio/alchemist.mp3",
-   "author": "Paulo Coelho",
-   "blurb": "Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
-   "date": "2026-09-30",
-   "episode": 5,
-   "slug": "alchemist",
-   "summary_pdf": "assets/summaries/alchemist.pdf",
-   "title": "The Alchemist"
-  },
-  {
-   "audio": "assets/audio/beyond-good-and-evil.mp3",
-   "author": "Friedrich Nietzsche",
-   "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' — master vs. slave morality, the will to power, and philosophy with a hammer.",
-   "date": "2026-10-01",
-   "episode": 6,
-   "slug": "beyond-good-and-evil",
-   "summary_pdf": "assets/summaries/beyond-good-and-evil.pdf",
-   "title": "Beyond Good and Evil"
-  },
-  {
-   "summary_pdf": "assets/summaries/thinking-fast-and-slow.pdf",
-   "author": "Daniel Kahneman",
-   "blurb": "Kahneman maps the mind's two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.",
-   "date": "2026-10-02",
-   "episode": 7,
-   "slug": "thinking-fast-and-slow",
-   "title": "Thinking, Fast and Slow",
-   "audio": "assets/audio/thinking-fast-and-slow.mp3"
-  },
-  {
-   "episode": 8,
-   "slug": "crime-and-punishment",
-   "title": "Crime and Punishment",
-   "author": "Fyodor Dostoevsky",
-   "blurb": "# Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.",
-   "date": "2026-10-03",
-   "audio": "assets/audio/crime-and-punishment.mp3",
-   "summary_pdf": "assets/summaries/crime-and-punishment.pdf"
-  },
-  {
-   "episode": 9,
-   "slug": "sapiens",
-   "title": "Sapiens",
-   "author": "Yuval Noah Harari",
-   "blurb": "Sapiens asks how Homo sapiens, once a marginal ape among several human species, came to build cities, money, empires, and rockets — by believing shared stories and cooperating at scale.",
-   "date": "2026-10-04",
-   "audio": "assets/audio/sapiens.mp3",
-   "summary_pdf": "assets/summaries/sapiens.pdf"
-  },
-  {
-   "episode": 10,
-   "slug": "art-of-war",
-   "title": "The Art of War",
-   "author": "Sun Tzu",
-   "date": "2026-10-05",
-   "audio": "assets/audio/art-of-war.mp3",
-   "summary_pdf": "assets/summaries/art-of-war.pdf",
-   "blurb": "The Art of War is a manual for armed conflict written in China roughly two thousand five hundred years ago — and it is mostly famous for arguing that the best war is the one you never fight."
-  },
-  {
-   "episode": 11,
-   "slug": "tao-te-ching",
-   "title": "Tao Te Ching",
-   "author": "Lao-Tzu",
-   "blurb": "One of the shortest great books ever written — roughly five thousand words in eighty-one chapters — the Tao Te Ching argues that the Way cannot be named, that water overcomes rock, and that the best leadership looks like doing nothing at all.",
-   "date": "2026-10-06",
-   "audio": "assets/audio/tao-te-ching.mp3",
-   "summary_pdf": "assets/summaries/tao-te-ching.pdf"
-  },
-  {
-   "episode": 12,
-   "slug": "forty-rules-of-love",
-   "title": "The Forty Rules of Love",
-   "author": "Elif Shafak",
-   "date": "2026-10-07",
-   "audio": "assets/audio/forty-rules-of-love.mp3",
-   "summary_pdf": "assets/summaries/forty-rules-of-love.pdf",
-   "blurb": "Elif Shafak's million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time."
-  },
-  {
-   "episode": 13,
-   "slug": "a-gentleman-in-moscow",
-   "title": "A Gentleman in Moscow",
-   "author": "Amor Towles",
-   "blurb": "Amor Towles's 2016 novel traps Count Alexander Rostov — a Russian aristocrat sentenced in 1922 to lifelong house arrest inside Moscow's Metropol Hotel — and asks what remains when everything that defined a person is taken away. Across three decades of purges and war, the Count learns that freedom is not the absence of constraint but what you choose to do with it.",
-   "date": "2026-10-08",
-   "audio": "assets/audio/a-gentleman-in-moscow.mp3",
-   "summary_pdf": "assets/summaries/a-gentleman-in-moscow.pdf"
-  },
-  {
-   "episode": 14,
-   "slug": "three-body-problem",
-   "title": "The Three-Body Problem",
-   "author": "Liu Cixin",
-   "date": "2026-10-09",
-   "audio": "assets/audio/three-body-problem.mp3",
-   "summary_pdf": "assets/summaries/three-body-problem.pdf",
-   "blurb": "Liu Cixin's Hugo-winning first-contact epic opens in China's Cultural Revolution, where a young astrophysicist's despair leads her to invite an alien civilization to Earth — and follows the fallout forty years later, when a physicist starts seeing a countdown only he can see. Hard science, deep grief, and the most vertigo-inducing ideas in modern science fiction."
-  }
- ],
- "series": "Zains Morning Commute Books",
- "upcoming": [
-  {
-   "episode": 15,
-   "title": "10% Happier",
-   "author": "Dan Harris"
-  },
-  {
-   "episode": 16,
-   "title": "The Power of Now",
-   "author": "Eckhart Tolle"
-  },
-  {
-   "episode": 17,
-   "title": "Nexus",
-   "author": "Yuval Noah Harari"
-  },
-  {
-   "episode": 18,
-   "title": "The Anarchy",
-   "author": "William Dalrymple"
-  },
-  {
-   "episode": 19,
-   "title": "1984",
-   "author": "George Orwell"
-  },
-  {
-   "episode": 20,
-   "title": "The Better Angels of Our Nature",
-   "author": "Steven Pinker"
-  },
-  {
-   "episode": 21,
-   "title": "Paper Girl",
-   "author": "Beth Macy"
-  },
-  {
-   "episode": 22,
-   "title": "The Loneliness of Sonia and Sunny",
-   "author": "Kiran Desai"
-  },
-  {
-   "episode": 23,
-   "title": "Factfulness",
-   "author": "Hans Rosling"
-  },
-  {
-   "episode": 24,
-   "title": "Flashlight",
-   "author": "Susan Choi"
-  },
-  {
-   "episode": 25,
-   "title": "A Marriage at Sea",
-   "author": "Sophie Elmhirst"
-  },
-  {
-   "episode": 26,
-   "title": "Business Adventures",
-   "author": "John Brooks"
-  },
-  {
-   "episode": 27,
-   "title": "1929",
-   "author": "Andrew Ross Sorkin"
-  },
-  {
-   "episode": 28,
-   "title": "Stone Yard Devotional",
-   "author": "Charlotte Wood"
-  },
-  {
-   "episode": 29,
-   "title": "Range",
-   "author": "David Epstein"
-  },
-  {
-   "episode": 30,
-   "title": "We the People",
-   "author": "Jill Lepore"
-  },
-  {
-   "episode": 31,
-   "title": "Mother Emanuel",
-   "author": "Kevin Sack"
-  },
-  {
-   "episode": 32,
-   "title": "The Coming Wave",
-   "author": "Mustafa Suleyman"
-  },
-  {
-   "episode": 33,
-   "title": "What We Can Know",
-   "author": "Ian McEwan"
-  },
-  {
-   "episode": 34,
-   "title": "Wild Thing",
-   "author": "Sue Prideaux"
-  },
-  {
-   "episode": 35,
-   "title": "The Inner Game of Tennis",
-   "author": "Timothy Gallwey"
-  },
-  {
-   "episode": 36,
-   "title": "There Is No Place for Us",
-   "author": "Brian Goldstone"
-  },
-  {
-   "episode": 37,
-   "title": "The Anxious Generation",
-   "author": "Jonathan Haidt"
-  },
-  {
-   "episode": 38,
-   "title": "Angel Down",
-   "author": "Daniel Kraus"
-  },
-  {
-   "episode": 39,
-   "title": "Dead and Alive",
-   "author": "Zadie Smith"
-  },
-  {
-   "episode": 40,
-   "title": "Grand Transitions",
-   "author": "Vaclav Smil"
-  },
-  {
-   "episode": 41,
-   "title": "Mother Mary Comes to Me",
-   "author": "Arundhati Roy"
-  },
-  {
-   "episode": 42,
-   "title": "Abundance",
-   "author": "Ezra Klein & Derek Thompson"
-  },
-  {
-   "episode": 43,
-   "title": "Stranger in a Strange Land",
-   "author": "Robert Heinlein"
-  }
- ]
+  "books": [
+    {
+      "audio": "assets/audio/zarathustra.mp3",
+      "author": "Friedrich Nietzsche",
+      "blurb": "Nietzsche's prophet descends from the mountain with the Übermensch, the will to power, and the eternal recurrence — a poetic manifesto for creating your own values.",
+      "date": "2026-09-27",
+      "episode": 1,
+      "slug": "zarathustra",
+      "summary_pdf": "assets/summaries/zarathustra.pdf",
+      "title": "Thus Spoke Zarathustra"
+    },
+    {
+      "audio": "assets/audio/karamazov.mp3",
+      "author": "Fyodor Dostoevsky",
+      "blurb": "Faith, doubt, guilt, and redemption collide in the Karamazov family — Dostoevsky's final and greatest novel on the struggle between good and evil in the human soul.",
+      "date": "2026-09-27",
+      "episode": 2,
+      "slug": "karamazov",
+      "summary_pdf": "assets/summaries/karamazov.pdf",
+      "title": "The Brothers Karamazov"
+    },
+    {
+      "audio": "assets/audio/conquest-of-happiness.mp3",
+      "author": "Bertrand Russell",
+      "blurb": "Russell diagnoses the modern causes of unhappiness — competition, boredom, fatigue, envy — and prescribes zest, affection, and impersonal interests as the way out.",
+      "date": "2026-09-28",
+      "episode": 3,
+      "slug": "conquest-of-happiness",
+      "summary_pdf": "assets/summaries/conquest-of-happiness.pdf",
+      "title": "The Conquest of Happiness"
+    },
+    {
+      "audio": "assets/audio/republic.mp3",
+      "author": "Plato",
+      "blurb": "Socrates asks what justice is and builds an ideal city to find the answer — the founding text of Western political philosophy, with the allegory of the cave at its heart.",
+      "date": "2026-09-29",
+      "episode": 4,
+      "slug": "republic",
+      "summary_pdf": "assets/summaries/republic.pdf",
+      "title": "The Republic"
+    },
+    {
+      "audio": "assets/audio/alchemist.mp3",
+      "author": "Paulo Coelho",
+      "blurb": "Santiago the shepherd follows his Personal Legend across the desert — a fable about listening to your heart, reading the omens, and the treasure you find by seeking it.",
+      "date": "2026-09-30",
+      "episode": 5,
+      "slug": "alchemist",
+      "summary_pdf": "assets/summaries/alchemist.pdf",
+      "title": "The Alchemist"
+    },
+    {
+      "audio": "assets/audio/beyond-good-and-evil.mp3",
+      "author": "Friedrich Nietzsche",
+      "blurb": "Nietzsche dismantles the prejudices of philosophers and sketches the 'free spirit' — master vs. slave morality, the will to power, and philosophy with a hammer.",
+      "date": "2026-10-01",
+      "episode": 6,
+      "slug": "beyond-good-and-evil",
+      "summary_pdf": "assets/summaries/beyond-good-and-evil.pdf",
+      "title": "Beyond Good and Evil"
+    },
+    {
+      "summary_pdf": "assets/summaries/thinking-fast-and-slow.pdf",
+      "author": "Daniel Kahneman",
+      "blurb": "Kahneman maps the mind's two gears — fast intuition and slow reasoning — and the biases (anchoring, framing, loss aversion) that quietly steer everyday judgment.",
+      "date": "2026-10-02",
+      "episode": 7,
+      "slug": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow",
+      "audio": "assets/audio/thinking-fast-and-slow.mp3"
+    },
+    {
+      "episode": 8,
+      "slug": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "blurb": "# Crime and Punishment ### A 20-Minute Read **Fyodor Dostoevsky (1866) — Episode 8 of the Top 10 Books series** *A former student with a theory, an axe, and a fever.",
+      "date": "2026-10-03",
+      "audio": "assets/audio/crime-and-punishment.mp3",
+      "summary_pdf": "assets/summaries/crime-and-punishment.pdf"
+    },
+    {
+      "episode": 9,
+      "slug": "sapiens",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "blurb": "Sapiens asks how Homo sapiens, once a marginal ape among several human species, came to build cities, money, empires, and rockets — by believing shared stories and cooperating at scale.",
+      "date": "2026-10-04",
+      "audio": "assets/audio/sapiens.mp3",
+      "summary_pdf": "assets/summaries/sapiens.pdf"
+    },
+    {
+      "episode": 10,
+      "slug": "art-of-war",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "date": "2026-10-05",
+      "audio": "assets/audio/art-of-war.mp3",
+      "summary_pdf": "assets/summaries/art-of-war.pdf",
+      "blurb": "The Art of War is a manual for armed conflict written in China roughly two thousand five hundred years ago — and it is mostly famous for arguing that the best war is the one you never fight."
+    },
+    {
+      "episode": 11,
+      "slug": "tao-te-ching",
+      "title": "Tao Te Ching",
+      "author": "Lao-Tzu",
+      "blurb": "One of the shortest great books ever written — roughly five thousand words in eighty-one chapters — the Tao Te Ching argues that the Way cannot be named, that water overcomes rock, and that the best leadership looks like doing nothing at all.",
+      "date": "2026-10-06",
+      "audio": "assets/audio/tao-te-ching.mp3",
+      "summary_pdf": "assets/summaries/tao-te-ching.pdf"
+    },
+    {
+      "episode": 12,
+      "slug": "forty-rules-of-love",
+      "title": "The Forty Rules of Love",
+      "author": "Elif Shafak",
+      "date": "2026-10-07",
+      "audio": "assets/audio/forty-rules-of-love.mp3",
+      "summary_pdf": "assets/summaries/forty-rules-of-love.pdf",
+      "blurb": "Elif Shafak's million-copy bestseller braids two love stories eight centuries apart: a bored Massachusetts housewife reading her way toward a new life, and the thirteenth-century friendship between the mystic poet Rumi and the wandering dervish Shams of Tabriz. Between them run forty rules of love — a spiritual operating system for dismantling the ego, one small death at a time."
+    },
+    {
+      "episode": 13,
+      "slug": "a-gentleman-in-moscow",
+      "title": "A Gentleman in Moscow",
+      "author": "Amor Towles",
+      "blurb": "Amor Towles's 2016 novel traps Count Alexander Rostov — a Russian aristocrat sentenced in 1922 to lifelong house arrest inside Moscow's Metropol Hotel — and asks what remains when everything that defined a person is taken away. Across three decades of purges and war, the Count learns that freedom is not the absence of constraint but what you choose to do with it.",
+      "date": "2026-10-08",
+      "audio": "assets/audio/a-gentleman-in-moscow.mp3",
+      "summary_pdf": "assets/summaries/a-gentleman-in-moscow.pdf"
+    },
+    {
+      "episode": 14,
+      "slug": "three-body-problem",
+      "title": "The Three-Body Problem",
+      "author": "Liu Cixin",
+      "date": "2026-10-09",
+      "audio": "assets/audio/three-body-problem.mp3",
+      "summary_pdf": "assets/summaries/three-body-problem.pdf",
+      "blurb": "Liu Cixin's Hugo-winning first-contact epic opens in China's Cultural Revolution, where a young astrophysicist's despair leads her to invite an alien civilization to Earth — and follows the fallout forty years later, when a physicist starts seeing a countdown only he can see. Hard science, deep grief, and the most vertigo-inducing ideas in modern science fiction."
+    },
+    {
+      "episode": 15,
+      "slug": "dark-forest",
+      "title": "The Dark Forest",
+      "author": "Liu Cixin",
+      "date": "2026-10-09",
+      "audio": "assets/audio/dark-forest.mp3",
+      "summary_pdf": "assets/summaries/dark-forest.pdf",
+      "blurb": "The second book of Liu Cixin's Remembrance of Earth's Past trilogy: the dark forest theory, the Wallfacers, the droplet that annihilates humanity's fleet, and Luo Ji's fifty-four years holding the fate of two civilizations."
+    },
+    {
+      "episode": 16,
+      "slug": "deaths-end",
+      "title": "Death's End",
+      "author": "Liu Cixin",
+      "date": "2026-10-09",
+      "audio": "assets/audio/deaths-end.mp3",
+      "summary_pdf": "assets/summaries/deaths-end.pdf",
+      "blurb": "The trilogy's cosmic finale: a brain fired into space, fairy tales hiding the secrets of the universe, the dual-vector foil that flattens the solar system, and a fish tank drifting at the end of everything."
+    }
+  ],
+  "series": "Zains Morning Commute Books",
+  "upcoming": [
+    {
+      "episode": 15,
+      "title": "10% Happier",
+      "author": "Dan Harris"
+    },
+    {
+      "episode": 16,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle"
+    },
+    {
+      "episode": 17,
+      "title": "Nexus",
+      "author": "Yuval Noah Harari"
+    },
+    {
+      "episode": 18,
+      "title": "The Anarchy",
+      "author": "William Dalrymple"
+    },
+    {
+      "episode": 19,
+      "title": "1984",
+      "author": "George Orwell"
+    },
+    {
+      "episode": 20,
+      "title": "The Better Angels of Our Nature",
+      "author": "Steven Pinker"
+    },
+    {
+      "episode": 21,
+      "title": "Paper Girl",
+      "author": "Beth Macy"
+    },
+    {
+      "episode": 22,
+      "title": "The Loneliness of Sonia and Sunny",
+      "author": "Kiran Desai"
+    },
+    {
+      "episode": 23,
+      "title": "Factfulness",
+      "author": "Hans Rosling"
+    },
+    {
+      "episode": 24,
+      "title": "Flashlight",
+      "author": "Susan Choi"
+    },
+    {
+      "episode": 25,
+      "title": "A Marriage at Sea",
+      "author": "Sophie Elmhirst"
+    },
+    {
+      "episode": 26,
+      "title": "Business Adventures",
+      "author": "John Brooks"
+    },
+    {
+      "episode": 27,
+      "title": "1929",
+      "author": "Andrew Ross Sorkin"
+    },
+    {
+      "episode": 28,
+      "title": "Stone Yard Devotional",
+      "author": "Charlotte Wood"
+    },
+    {
+      "episode": 29,
+      "title": "Range",
+      "author": "David Epstein"
+    },
+    {
+      "episode": 30,
+      "title": "We the People",
+      "author": "Jill Lepore"
+    },
+    {
+      "episode": 31,
+      "title": "Mother Emanuel",
+      "author": "Kevin Sack"
+    },
+    {
+      "episode": 32,
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman"
+    },
+    {
+      "episode": 33,
+      "title": "What We Can Know",
+      "author": "Ian McEwan"
+    },
+    {
+      "episode": 34,
+      "title": "Wild Thing",
+      "author": "Sue Prideaux"
+    },
+    {
+      "episode": 35,
+      "title": "The Inner Game of Tennis",
+      "author": "Timothy Gallwey"
+    },
+    {
+      "episode": 36,
+      "title": "There Is No Place for Us",
+      "author": "Brian Goldstone"
+    },
+    {
+      "episode": 37,
+      "title": "The Anxious Generation",
+      "author": "Jonathan Haidt"
+    },
+    {
+      "episode": 38,
+      "title": "Angel Down",
+      "author": "Daniel Kraus"
+    },
+    {
+      "episode": 39,
+      "title": "Dead and Alive",
+      "author": "Zadie Smith"
+    },
+    {
+      "episode": 40,
+      "title": "Grand Transitions",
+      "author": "Vaclav Smil"
+    },
+    {
+      "episode": 41,
+      "title": "Mother Mary Comes to Me",
+      "author": "Arundhati Roy"
+    },
+    {
+      "episode": 42,
+      "title": "Abundance",
+      "author": "Ezra Klein & Derek Thompson"
+    },
+    {
+      "episode": 43,
+      "title": "Stranger in a Strange Land",
+      "author": "Robert Heinlein"
+    }
+  ]
 }
