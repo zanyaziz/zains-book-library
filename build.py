@@ -12,7 +12,7 @@ def card(b):
         '<p class="pending-note">🎙️ Podcast episode coming soon — the summary is ready below.</p>'
     )
     return f"""
-    <article class="card">
+    <article class="card" id="episode-{b['episode']}">
       <div class="ep">Episode {b['episode']}</div>
       <h2>{html.escape(b['title'])}</h2>
       <p class="author">{html.escape(b['author'])}</p>
@@ -21,6 +21,7 @@ def card(b):
       <div class="actions">
         <a class="btn primary" href="{b['summary_pdf']}">📖 Read the 20-minute summary (PDF)</a>
         {f'<a class="btn" href="{b["audio"]}" download>⬇ Download episode (MP3)</a>' if b.get("audio") else ""}
+        <button class="btn share-btn" type="button" data-episode="{b['episode']}" aria-label="Share episode {b['episode']}">🔗 Share</button>
       </div>
       <p class="date">Delivered {b['date']}</p>
     </article>"""
@@ -65,6 +66,14 @@ page = f"""<!DOCTYPE html>
   .btn {{ text-decoration:none; padding:.55rem 1rem; border-radius:10px; font-size:.95rem;
          border:1px solid #3a352a; color:var(--ink); }}
   .btn.primary {{ background:var(--accent); color:#1a1408; border-color:var(--accent); font-weight:600; }}
+  button.btn {{ background:transparent; cursor:pointer; font-family:inherit; }}
+  .card.flash {{ animation:flash 2.4s ease-out; }}
+  @keyframes flash {{ 0%,35% {{ box-shadow:0 0 0 3px var(--accent); border-color:var(--accent); }} 100% {{ box-shadow:none; }} }}
+  #toast {{ position:fixed; left:50%; bottom:1.5rem; transform:translateX(-50%) translateY(1rem);
+           background:var(--accent); color:#1a1408; font-weight:600; padding:.6rem 1.15rem;
+           border-radius:999px; opacity:0; pointer-events:none;
+           transition:opacity .25s ease, transform .25s ease; z-index:50; }}
+  #toast.show {{ opacity:1; transform:translateX(-50%) translateY(0); }}
   .date {{ color:var(--muted); font-size:.85rem; margin:.25rem 0 0; }}
   .upcoming {{ background:var(--card); border:1px dashed #3a352a; border-radius:16px;
               padding:1.5rem; }}
@@ -119,9 +128,34 @@ page = f"""<!DOCTYPE html>
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const total = Math.max(1, Math.ceil(cards.length / PAGE_SIZE));
+  function pageFromHash(){{
+    const m = location.hash.match(/^#page-(\\d+)$/);
+    if (m) {{ const p = parseInt(m[1], 10); if (p >= 1 && p <= total) return p; }}
+    return null;
+  }}
+  function deepEpisode(){{
+    const m = location.hash.match(/^#episode-(\\d+)$/);
+    if (m) return parseInt(m[1], 10);
+    const q = new URLSearchParams(location.search).get('episode');
+    const n = q !== null ? parseInt(q, 10) : NaN;
+    return Number.isFinite(n) ? n : null;
+  }}
   let page = 1;
-  const m = location.hash.match(/^#page-(\\d+)$/);
-  if (m) {{ const p = parseInt(m[1], 10); if (p >= 1 && p <= total) page = p; }}
+  let flashCard = null;
+  const targetEp = deepEpisode();
+  if (targetEp !== null) {{
+    const idx = cards.findIndex(c => c.id === 'episode-' + targetEp);
+    if (idx >= 0) {{
+      page = Math.floor(idx / PAGE_SIZE) + 1;
+      flashCard = cards[idx];
+    }} else {{
+      const p = pageFromHash();
+      if (p) page = p;
+    }}
+  }} else {{
+    const p = pageFromHash();
+    if (p) page = p;
+  }}
   function render(){{
     cards.forEach((c, i) => {{
       c.style.display = (Math.floor(i / PAGE_SIZE) + 1 === page) ? '' : 'none';
@@ -149,6 +183,55 @@ page = f"""<!DOCTYPE html>
   prevBtn.onclick = () => {{ if (page > 1) go(page - 1); }};
   nextBtn.onclick = () => {{ if (page < total) go(page + 1); }};
   render();
+  if (flashCard) {{
+    setTimeout(() => flashCard.scrollIntoView({{ behavior: 'smooth', block: 'center' }}), 80);
+    flashCard.classList.add('flash');
+    setTimeout(() => flashCard.classList.remove('flash'), 2600);
+  }}
+  const toast = document.createElement('div');
+  toast.id = 'toast';
+  toast.setAttribute('role', 'status');
+  toast.setAttribute('aria-live', 'polite');
+  document.body.appendChild(toast);
+  let toastTimer = null;
+  function showToast(msg){{
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+  }}
+  function deepLink(n){{
+    return location.origin + location.pathname + '#episode-' + n;
+  }}
+  async function copyLink(url){{
+    try {{
+      await navigator.clipboard.writeText(url);
+      showToast('Link copied');
+    }} catch (e) {{
+      const ta = document.createElement('textarea');
+      ta.value = url;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {{ document.execCommand('copy'); showToast('Link copied'); }}
+      catch (e2) {{ showToast('Could not copy link'); }}
+      document.body.removeChild(ta);
+    }}
+  }}
+  section.addEventListener('click', (ev) => {{
+    const btn = ev.target.closest('.share-btn');
+    if (!btn) return;
+    const n = btn.getAttribute('data-episode');
+    const card = btn.closest('.card');
+    const title = card ? card.querySelector('h2').textContent.trim() : ('Episode ' + n);
+    const url = deepLink(n);
+    if (navigator.share) {{
+      navigator.share({{ title: title + ' — Zains Morning Commute Books', text: title, url: url }}).catch(() => {{}});
+    }} else {{
+      copyLink(url);
+    }}
+  }});
 }})();
 </script>
 </body>

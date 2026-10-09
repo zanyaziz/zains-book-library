@@ -30,6 +30,14 @@
   .btn { text-decoration:none; padding:.55rem 1rem; border-radius:10px; font-size:.95rem;
          border:1px solid #3a352a; color:var(--ink); }
   .btn.primary { background:var(--accent); color:#1a1408; border-color:var(--accent); font-weight:600; }
+  button.btn { background:transparent; cursor:pointer; font-family:inherit; }
+  .card.flash { animation:flash 2.4s ease-out; }
+  @keyframes flash { 0%,35% { box-shadow:0 0 0 3px var(--accent); border-color:var(--accent); } 100% { box-shadow:none; } }
+  #toast { position:fixed; left:50%; bottom:1.5rem; transform:translateX(-50%) translateY(1rem);
+           background:var(--accent); color:#1a1408; font-weight:600; padding:.6rem 1.15rem;
+           border-radius:999px; opacity:0; pointer-events:none;
+           transition:opacity .25s ease, transform .25s ease; z-index:50; }
+  #toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
   .date { color:var(--muted); font-size:.85rem; margin:.25rem 0 0; }
   .upcoming { background:var(--card); border:1px dashed #3a352a; border-radius:16px;
               padding:1.5rem; }
@@ -60,7 +68,7 @@
 <main>
 <section id="episodes" aria-label="Episodes">
 
-    <article class="card">
+    <article class="card" id="episode-13">
       <div class="ep">Episode 13</div>
       <h2>A Gentleman in Moscow</h2>
       <p class="author">Amor Towles</p>
@@ -69,10 +77,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/a-gentleman-in-moscow.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/a-gentleman-in-moscow.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="13" aria-label="Share episode 13">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-08</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-12">
       <div class="ep">Episode 12</div>
       <h2>The Forty Rules of Love</h2>
       <p class="author">Elif Shafak</p>
@@ -81,10 +90,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/forty-rules-of-love.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/forty-rules-of-love.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="12" aria-label="Share episode 12">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-07</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-11">
       <div class="ep">Episode 11</div>
       <h2>Tao Te Ching</h2>
       <p class="author">Lao-Tzu</p>
@@ -93,10 +103,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/tao-te-ching.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/tao-te-ching.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="11" aria-label="Share episode 11">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-06</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-10">
       <div class="ep">Episode 10</div>
       <h2>The Art of War</h2>
       <p class="author">Sun Tzu</p>
@@ -105,10 +116,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/art-of-war.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/art-of-war.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="10" aria-label="Share episode 10">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-05</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-9">
       <div class="ep">Episode 9</div>
       <h2>Sapiens</h2>
       <p class="author">Yuval Noah Harari</p>
@@ -117,10 +129,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/sapiens.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/sapiens.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="9" aria-label="Share episode 9">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-04</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-8">
       <div class="ep">Episode 8</div>
       <h2>Crime and Punishment</h2>
       <p class="author">Fyodor Dostoevsky</p>
@@ -129,10 +142,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/crime-and-punishment.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/crime-and-punishment.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="8" aria-label="Share episode 8">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-03</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-7">
       <div class="ep">Episode 7</div>
       <h2>Thinking, Fast and Slow</h2>
       <p class="author">Daniel Kahneman</p>
@@ -141,10 +155,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/thinking-fast-and-slow.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/thinking-fast-and-slow.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="7" aria-label="Share episode 7">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-02</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-6">
       <div class="ep">Episode 6</div>
       <h2>Beyond Good and Evil</h2>
       <p class="author">Friedrich Nietzsche</p>
@@ -153,10 +168,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/beyond-good-and-evil.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/beyond-good-and-evil.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="6" aria-label="Share episode 6">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-10-01</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-5">
       <div class="ep">Episode 5</div>
       <h2>The Alchemist</h2>
       <p class="author">Paulo Coelho</p>
@@ -165,10 +181,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/alchemist.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/alchemist.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="5" aria-label="Share episode 5">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-09-30</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-4">
       <div class="ep">Episode 4</div>
       <h2>The Republic</h2>
       <p class="author">Plato</p>
@@ -177,10 +194,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/republic.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/republic.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="4" aria-label="Share episode 4">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-09-29</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-3">
       <div class="ep">Episode 3</div>
       <h2>The Conquest of Happiness</h2>
       <p class="author">Bertrand Russell</p>
@@ -189,10 +207,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/conquest-of-happiness.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/conquest-of-happiness.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="3" aria-label="Share episode 3">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-09-28</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-2">
       <div class="ep">Episode 2</div>
       <h2>The Brothers Karamazov</h2>
       <p class="author">Fyodor Dostoevsky</p>
@@ -201,10 +220,11 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/karamazov.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/karamazov.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="2" aria-label="Share episode 2">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-09-27</p>
     </article>
-    <article class="card">
+    <article class="card" id="episode-1">
       <div class="ep">Episode 1</div>
       <h2>Thus Spoke Zarathustra</h2>
       <p class="author">Friedrich Nietzsche</p>
@@ -213,6 +233,7 @@
       <div class="actions">
         <a class="btn primary" href="assets/summaries/zarathustra.pdf">📖 Read the 20-minute summary (PDF)</a>
         <a class="btn" href="assets/audio/zarathustra.mp3" download>⬇ Download episode (MP3)</a>
+        <button class="btn share-btn" type="button" data-episode="1" aria-label="Share episode 1">🔗 Share</button>
       </div>
       <p class="date">Delivered 2026-09-27</p>
     </article>
@@ -269,9 +290,34 @@
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
   const total = Math.max(1, Math.ceil(cards.length / PAGE_SIZE));
+  function pageFromHash(){
+    const m = location.hash.match(/^#page-(\d+)$/);
+    if (m) { const p = parseInt(m[1], 10); if (p >= 1 && p <= total) return p; }
+    return null;
+  }
+  function deepEpisode(){
+    const m = location.hash.match(/^#episode-(\d+)$/);
+    if (m) return parseInt(m[1], 10);
+    const q = new URLSearchParams(location.search).get('episode');
+    const n = q !== null ? parseInt(q, 10) : NaN;
+    return Number.isFinite(n) ? n : null;
+  }
   let page = 1;
-  const m = location.hash.match(/^#page-(\d+)$/);
-  if (m) { const p = parseInt(m[1], 10); if (p >= 1 && p <= total) page = p; }
+  let flashCard = null;
+  const targetEp = deepEpisode();
+  if (targetEp !== null) {
+    const idx = cards.findIndex(c => c.id === 'episode-' + targetEp);
+    if (idx >= 0) {
+      page = Math.floor(idx / PAGE_SIZE) + 1;
+      flashCard = cards[idx];
+    } else {
+      const p = pageFromHash();
+      if (p) page = p;
+    }
+  } else {
+    const p = pageFromHash();
+    if (p) page = p;
+  }
   function render(){
     cards.forEach((c, i) => {
       c.style.display = (Math.floor(i / PAGE_SIZE) + 1 === page) ? '' : 'none';
@@ -299,6 +345,55 @@
   prevBtn.onclick = () => { if (page > 1) go(page - 1); };
   nextBtn.onclick = () => { if (page < total) go(page + 1); };
   render();
+  if (flashCard) {
+    setTimeout(() => flashCard.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
+    flashCard.classList.add('flash');
+    setTimeout(() => flashCard.classList.remove('flash'), 2600);
+  }
+  const toast = document.createElement('div');
+  toast.id = 'toast';
+  toast.setAttribute('role', 'status');
+  toast.setAttribute('aria-live', 'polite');
+  document.body.appendChild(toast);
+  let toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+  }
+  function deepLink(n){
+    return location.origin + location.pathname + '#episode-' + n;
+  }
+  async function copyLink(url){
+    try {
+      await navigator.clipboard.writeText(url);
+      showToast('Link copied');
+    } catch (e) {
+      const ta = document.createElement('textarea');
+      ta.value = url;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); showToast('Link copied'); }
+      catch (e2) { showToast('Could not copy link'); }
+      document.body.removeChild(ta);
+    }
+  }
+  section.addEventListener('click', (ev) => {
+    const btn = ev.target.closest('.share-btn');
+    if (!btn) return;
+    const n = btn.getAttribute('data-episode');
+    const card = btn.closest('.card');
+    const title = card ? card.querySelector('h2').textContent.trim() : ('Episode ' + n);
+    const url = deepLink(n);
+    if (navigator.share) {
+      navigator.share({ title: title + ' — Zains Morning Commute Books', text: title, url: url }).catch(() => {});
+    } else {
+      copyLink(url);
+    }
+  });
 })();
 </script>
 </body>
