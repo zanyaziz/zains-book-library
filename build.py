@@ -226,6 +226,7 @@ page = f"""<!DOCTYPE html>
     const card = btn.closest('.card');
     const title = card ? card.querySelector('h2').textContent.trim() : ('Episode ' + n);
     const url = deepLink(n);
+    if (history.replaceState) history.replaceState(null, '', '#episode-' + n);
     if (navigator.share) {{
       navigator.share({{ title: title + ' — Zains Morning Commute Books', text: title, url: url }}).catch(() => {{}});
     }} else {{
