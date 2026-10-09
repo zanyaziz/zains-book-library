@@ -99,7 +99,7 @@ page = f"""<!DOCTYPE html>
 <header>
   <img src="assets/img/series-cover.webp" alt="Series cover art">
   <h1>{html.escape(data['series'])}</h1>
-  <p class="sub">One book a day — a ~30-minute Maya &amp; Dev podcast episode plus a 20-minute read summary.</p>
+  <p class="sub">One book a day — a ~30-minute daily podcast episode plus a 20-minute read summary. Come explore new ideas with me.</p>
 </header>
 <main>
 <section id="episodes" aria-label="Episodes">
