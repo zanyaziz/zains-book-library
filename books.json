@@ -159,32 +159,47 @@
       "audio": "assets/audio/deaths-end.mp3",
       "summary_pdf": "assets/summaries/deaths-end.pdf",
       "blurb": "The trilogy's cosmic finale: a brain fired into space, fairy tales hiding the secrets of the universe, the dual-vector foil that flattens the solar system, and a fish tank drifting at the end of everything."
+    },
+    {
+      "episode": 17,
+      "slug": "high-output-management",
+      "title": "High Output Management",
+      "author": "Andy Grove",
+      "blurb": "Andy Grove — Hungarian refugee, Berkeley PhD, co-founder and later CEO of Intel — wrote the most durable management manual of the modern era while running one of the most important companies on earth. His thesis: management is a production process.",
+      "date": "2026-10-09",
+      "audio": "assets/audio/high-output-management.mp3",
+      "summary_pdf": "assets/summaries/high-output-management.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
     {
-      "episode": 15,
+      "episode": 18,
+      "title": "Zero to One",
+      "author": "Peter Thiel"
+    },
+    {
+      "episode": 19,
       "title": "10% Happier",
       "author": "Dan Harris"
     },
     {
-      "episode": 16,
+      "episode": 20,
       "title": "The Power of Now",
       "author": "Eckhart Tolle"
     },
     {
-      "episode": 17,
+      "episode": 21,
       "title": "Nexus",
       "author": "Yuval Noah Harari"
     },
     {
-      "episode": 18,
+      "episode": 22,
       "title": "The Anarchy",
       "author": "William Dalrymple"
     },
     {
-      "episode": 19,
+      "episode": 23,
       "title": "1984",
       "author": "George Orwell"
     },
