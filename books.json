@@ -169,15 +169,20 @@
       "date": "2026-10-09",
       "audio": "assets/audio/high-output-management.mp3",
       "summary_pdf": "assets/summaries/high-output-management.pdf"
+    },
+    {
+      "episode": 18,
+      "slug": "zero-to-one",
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "blurb": "Every moment in business happens only once. The next Bill Gates will not build an operating system; the next Larry Page will not build a search engine.",
+      "date": "2026-10-10",
+      "audio": "assets/audio/zero-to-one.mp3",
+      "summary_pdf": "assets/summaries/zero-to-one.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 18,
-      "title": "Zero to One",
-      "author": "Peter Thiel"
-    },
     {
       "episode": 19,
       "title": "10% Happier",
