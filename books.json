@@ -179,15 +179,20 @@
       "date": "2026-10-10",
       "audio": "assets/audio/zero-to-one.mp3",
       "summary_pdf": "assets/summaries/zero-to-one.pdf"
+    },
+    {
+      "episode": 19,
+      "slug": "10-happier",
+      "title": "10% Happier",
+      "author": "Dan Harris",
+      "date": "2026-10-11",
+      "audio": "assets/audio/10-happier.mp3",
+      "blurb": "Dan Harris was a rising star at ABC News — a war correspondent turned anchor — when, in 2004, he had a full-blown panic attack live on *Good Morning America*, in front of millions of viewers.",
+      "summary_pdf": "assets/summaries/10-happier.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 19,
-      "title": "10% Happier",
-      "author": "Dan Harris"
-    },
     {
       "episode": 20,
       "title": "The Power of Now",
