@@ -189,15 +189,20 @@
       "audio": "assets/audio/10-happier.mp3",
       "blurb": "Dan Harris was a rising star at ABC News — a war correspondent turned anchor — when, in 2004, he had a full-blown panic attack live on *Good Morning America*, in front of millions of viewers.",
       "summary_pdf": "assets/summaries/10-happier.pdf"
+    },
+    {
+      "episode": 20,
+      "slug": "power-of-now",
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "date": "2026-10-12",
+      "audio": "assets/audio/power-of-now.mp3",
+      "summary_pdf": "assets/summaries/power-of-now.pdf",
+      "blurb": "The Power of Now is Eckhart Tolle's 1997 guide to a single, deceptively simple insight: you are not your mind. The book argues that almost all human suffering comes from identification with the compulsive, involuntary stream of thinking, and that peace becomes available the moment you disidentify from it and rest attention in the present moment — the Now, the only place life actually happens."
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 20,
-      "title": "The Power of Now",
-      "author": "Eckhart Tolle"
-    },
     {
       "episode": 21,
       "title": "Nexus",
