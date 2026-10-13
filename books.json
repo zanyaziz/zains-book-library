@@ -199,15 +199,20 @@
       "audio": "assets/audio/power-of-now.mp3",
       "summary_pdf": "assets/summaries/power-of-now.pdf",
       "blurb": "The Power of Now is Eckhart Tolle's 1997 guide to a single, deceptively simple insight: you are not your mind. The book argues that almost all human suffering comes from identification with the compulsive, involuntary stream of thinking, and that peace becomes available the moment you disidentify from it and rest attention in the present moment — the Now, the only place life actually happens."
+    },
+    {
+      "episode": 21,
+      "slug": "nexus",
+      "title": "Nexus",
+      "author": "Yuval Noah Harari",
+      "blurb": "Nexus is Yuval Noah Harari's history of how human beings learned to connect through information, and why that connection has never guaranteed wisdom.",
+      "date": "2026-10-13",
+      "audio": "assets/audio/nexus.mp3",
+      "summary_pdf": "assets/summaries/nexus.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 21,
-      "title": "Nexus",
-      "author": "Yuval Noah Harari"
-    },
     {
       "episode": 22,
       "title": "The Anarchy",
