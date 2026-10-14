@@ -209,15 +209,20 @@
       "date": "2026-10-13",
       "audio": "assets/audio/nexus.mp3",
       "summary_pdf": "assets/summaries/nexus.pdf"
+    },
+    {
+      "episode": 22,
+      "slug": "anarchy",
+      "title": "The Anarchy",
+      "author": "William Dalrymple",
+      "blurb": "In 1599, a group of London merchants formed a joint-stock company to trade in spices; within a hundred and sixty years, that company had conquered much of India, collected the taxes of Bengal, and commanded an army larger than that of many European states.",
+      "date": "2026-10-14",
+      "audio": "assets/audio/anarchy.mp3",
+      "summary_pdf": "assets/summaries/anarchy.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 22,
-      "title": "The Anarchy",
-      "author": "William Dalrymple"
-    },
     {
       "episode": 23,
       "title": "1984",
