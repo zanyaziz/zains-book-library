@@ -219,15 +219,20 @@
       "date": "2026-10-14",
       "audio": "assets/audio/anarchy.mp3",
       "summary_pdf": "assets/summaries/anarchy.pdf"
+    },
+    {
+      "episode": 23,
+      "slug": "1984",
+      "title": "1984",
+      "author": "George Orwell",
+      "blurb": "Winston Smith is a minor official in Oceania, a totalitarian superstate ruled by the Party and its symbolic leader, Big Brother. Winston's job at the Ministry of Truth is to rewrite old records so the past always agrees with the present.",
+      "date": "2026-10-15",
+      "audio": "assets/audio/1984.mp3",
+      "summary_pdf": "assets/summaries/1984.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
   "upcoming": [
-    {
-      "episode": 23,
-      "title": "1984",
-      "author": "George Orwell"
-    },
     {
       "episode": 24,
       "title": "The Better Angels of Our Nature",
