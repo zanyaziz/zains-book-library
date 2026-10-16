@@ -229,6 +229,16 @@
       "date": "2026-10-15",
       "audio": "assets/audio/1984.mp3",
       "summary_pdf": "assets/summaries/1984.pdf"
+    },
+    {
+      "episode": 24,
+      "slug": "better-angels-of-our-nature",
+      "title": "The Better Angels of Our Nature",
+      "author": "Steven Pinker",
+      "blurb": "Steven Pinker's *The Better Angels of Our Nature*, published in 2011, makes a large and surprising claim: violence, in almost every measurable form, has declined over the long sweep of human history, and it may be the most important development that has ever happened to our species.",
+      "date": "2026-10-16",
+      "audio": "assets/audio/better-angels-of-our-nature.mp3",
+      "summary_pdf": "assets/summaries/better-angels-of-our-nature.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
