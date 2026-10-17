@@ -239,6 +239,16 @@
       "date": "2026-10-16",
       "audio": "assets/audio/better-angels-of-our-nature.mp3",
       "summary_pdf": "assets/summaries/better-angels-of-our-nature.pdf"
+    },
+    {
+      "episode": 25,
+      "slug": "paper-girl",
+      "title": "Paper Girl",
+      "author": "Beth Macy",
+      "blurb": "Beth Macy grew up poor in Urbana, Ohio, a town of about eleven thousand people, in the nineteen seventies and nineteen eighties. Her father was a housepainter and an alcoholic, known as the town drunk.",
+      "date": "2026-10-17",
+      "audio": "assets/audio/paper-girl.mp3",
+      "summary_pdf": "assets/summaries/paper-girl.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
