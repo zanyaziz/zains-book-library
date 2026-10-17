@@ -101,7 +101,11 @@ def main() -> int:
     for n in sorted(set(finished_eps)):
         mp3, date = episode_mp3(n)
         entry = books_by_ep.get(n)
-        title = (known.get(n) or (entry or {}).get("title") or (None, None))[0]
+        known_entry = known.get(n)
+        if known_entry:
+            title = known_entry[0]
+        else:
+            title = (entry or {}).get("title")
         if not title:
             continue
         pdf = summary_pdf(title)
