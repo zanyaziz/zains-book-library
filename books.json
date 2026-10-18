@@ -249,6 +249,16 @@
       "date": "2026-10-17",
       "audio": "assets/audio/paper-girl.mp3",
       "summary_pdf": "assets/summaries/paper-girl.pdf"
+    },
+    {
+      "episode": 26,
+      "slug": "loneliness-of-sonia-and-sunny",
+      "title": "The Loneliness of Sonia and Sunny",
+      "author": "Kiran Desai",
+      "blurb": "Sonia and Sunny glimpse each other on an overnight train in India and are instantly attracted — and instantly embarrassed, because their grandparents once tried to arrange a match between them. That embarrassment drives them apart before love can begin.",
+      "date": "2026-10-18",
+      "audio": "assets/audio/loneliness-of-sonia-and-sunny.mp3",
+      "summary_pdf": "assets/summaries/loneliness-of-sonia-and-sunny.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
