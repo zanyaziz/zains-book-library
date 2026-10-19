@@ -259,6 +259,16 @@
       "date": "2026-10-18",
       "audio": "assets/audio/loneliness-of-sonia-and-sunny.mp3",
       "summary_pdf": "assets/summaries/loneliness-of-sonia-and-sunny.pdf"
+    },
+    {
+      "episode": 27,
+      "slug": "factfulness",
+      "title": "Factfulness",
+      "author": "Hans Rosling",
+      "blurb": "Factfulness begins with a quiz that will make you feel foolish, and then explains — kindly, relentlessly — why feeling foolish is the appropriate response. Hans Rosling spent decades asking Nobel laureates, Davos elites, medical students, and ordinary citizens the same simple questions about the world.",
+      "date": "2026-10-19",
+      "audio": "assets/audio/factfulness.mp3",
+      "summary_pdf": "assets/summaries/factfulness.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
