@@ -269,6 +269,16 @@
       "date": "2026-10-19",
       "audio": "assets/audio/factfulness.mp3",
       "summary_pdf": "assets/summaries/factfulness.pdf"
+    },
+    {
+      "episode": 28,
+      "slug": "flashlight",
+      "title": "Flashlight",
+      "author": "Susan Choi",
+      "blurb": "One summer evening in 1978, ten-year-old Louisa walks a Japanese breakwater with her father Serk, who carries a flashlight and cannot swim. She is found soaked and barely conscious; he is never found — and four generations of family history turn on that single unexplained night.",
+      "date": "2026-10-20",
+      "audio": "assets/audio/flashlight.mp3",
+      "summary_pdf": "assets/summaries/flashlight.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
