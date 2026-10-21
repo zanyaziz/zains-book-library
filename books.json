@@ -279,6 +279,16 @@
       "date": "2026-10-20",
       "audio": "assets/audio/flashlight.mp3",
       "summary_pdf": "assets/summaries/flashlight.pdf"
+    },
+    {
+      "episode": 29,
+      "slug": "a-marriage-at-sea",
+      "title": "A Marriage at Sea",
+      "author": "Sophie Elmhirst",
+      "blurb": "In June 1972, Maurice and Maralyn Bailey, a British couple from Derby, England, sold almost everything they owned, left their jobs, and set sail from Southampton in their roughly thirty-one-foot yacht, the Auralyn, bound for a new life in New Zealand. Then a wounded sperm whale sank their boat in the Pacific, and they survived 118 days adrift on a tiny raft.",
+      "date": "2026-10-21",
+      "audio": "assets/audio/a-marriage-at-sea.mp3",
+      "summary_pdf": "assets/summaries/a-marriage-at-sea.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
