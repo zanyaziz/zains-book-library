@@ -289,6 +289,16 @@
       "date": "2026-10-21",
       "audio": "assets/audio/a-marriage-at-sea.mp3",
       "summary_pdf": "assets/summaries/a-marriage-at-sea.pdf"
+    },
+    {
+      "episode": 30,
+      "slug": "business-adventures",
+      "title": "Business Adventures",
+      "author": "John Brooks",
+      "blurb": "Twelve classic tales from Wall Street and corporate America — a sudden market crash in 1962, Ford's doomed Edsel, the rise of Xerox, an insider trading case, and a grocer who tried to corner his own stock. Warren Buffett lent it to Bill Gates, who called it the best business book he had ever read.",
+      "date": "2026-10-22",
+      "audio": "assets/audio/business-adventures.mp3",
+      "summary_pdf": "assets/summaries/business-adventures.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
