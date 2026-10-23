@@ -299,6 +299,16 @@
       "date": "2026-10-22",
       "audio": "assets/audio/business-adventures.mp3",
       "summary_pdf": "assets/summaries/business-adventures.pdf"
+    },
+    {
+      "episode": 31,
+      "slug": "1929",
+      "title": "1929",
+      "author": "Andrew Ross Sorkin",
+      "blurb": "Andrew Ross Sorkin, the New York Times DealBook founder and CNBC co-anchor whose Too Big to Fail defined how the 2008 financial crisis is told, spent roughly eight years researching the original catastrophe. 1929 rebuilds the boom and the Great Crash through the people who made them: Charles Mitchell, the salesman-banker whose National City Bank pushed stocks on ordinary savers; Thomas Lamont and the partners of J.P. Morgan, summoned to organize private rescues because no public machinery existed.",
+      "date": "2026-10-23",
+      "audio": "assets/audio/1929.mp3",
+      "summary_pdf": "assets/summaries/1929.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
