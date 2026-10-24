@@ -309,6 +309,16 @@
       "date": "2026-10-23",
       "audio": "assets/audio/1929.mp3",
       "summary_pdf": "assets/summaries/1929.pdf"
+    },
+    {
+      "episode": 32,
+      "slug": "stone-yard-devotional",
+      "title": "Stone Yard Devotional",
+      "author": "Charlotte Wood",
+      "blurb": "An unnamed, middle-aged woman walks away from her life in Sydney. She is burnt out from years of work at a Threatened Species Rescue Centre, worn down by the daily accounting of loss in the natural world, and her marriage to Alex is failing.",
+      "date": "2026-10-24",
+      "audio": "assets/audio/stone-yard-devotional.mp3",
+      "summary_pdf": "assets/summaries/stone-yard-devotional.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
