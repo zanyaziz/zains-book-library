@@ -319,6 +319,16 @@
       "date": "2026-10-24",
       "audio": "assets/audio/stone-yard-devotional.mp3",
       "summary_pdf": "assets/summaries/stone-yard-devotional.pdf"
+    },
+    {
+      "episode": 33,
+      "slug": "range",
+      "title": "Range",
+      "author": "David Epstein",
+      "blurb": "Most of us have been told, in one form or another, to pick a lane early and stay in it. Find your thing as a child, practice it for ten thousand hours, specialize ever more narrowly, and success will follow.",
+      "date": "2026-10-25",
+      "audio": "assets/audio/range.mp3",
+      "summary_pdf": "assets/summaries/range.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
