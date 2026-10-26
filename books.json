@@ -329,6 +329,16 @@
       "date": "2026-10-25",
       "audio": "assets/audio/range.mp3",
       "summary_pdf": "assets/summaries/range.pdf"
+    },
+    {
+      "episode": 34,
+      "slug": "we-the-people",
+      "title": "We the People",
+      "author": "Jill Lepore",
+      "blurb": "Jill Lepore, Harvard historian and author of These Truths, tells the history of the United States Constitution from an angle almost no one uses: through the amendments — above all, through the amendments that failed.",
+      "date": "2026-10-26",
+      "audio": "assets/audio/we-the-people.mp3",
+      "summary_pdf": "assets/summaries/we-the-people.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
