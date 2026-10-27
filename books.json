@@ -339,6 +339,16 @@
       "date": "2026-10-26",
       "audio": "assets/audio/we-the-people.mp3",
       "summary_pdf": "assets/summaries/we-the-people.pdf"
+    },
+    {
+      "episode": 35,
+      "slug": "mother-emanuel",
+      "title": "Mother Emanuel",
+      "author": "Kevin Sack",
+      "blurb": "The story of one Charleston church — Emanuel African Methodist Episcopal Church — told across two centuries, from its roots in a breakaway by free and enslaved Black Methodists in 1818 to the murder of nine worshippers there in 2015, and the forgiveness some of their families offered two days later. Kevin Sack argues that forgiveness at Emanuel was an inherited practice: a religious discipline and a survival tool forged under enslavement, carried alongside an equally long tradition of resistance.",
+      "date": "2026-10-27",
+      "audio": "assets/audio/mother-emanuel.mp3",
+      "summary_pdf": "assets/summaries/mother-emanuel.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
