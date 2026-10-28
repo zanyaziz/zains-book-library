@@ -349,6 +349,16 @@
       "date": "2026-10-27",
       "audio": "assets/audio/mother-emanuel.mp3",
       "summary_pdf": "assets/summaries/mother-emanuel.pdf"
+    },
+    {
+      "episode": 36,
+      "slug": "coming-wave",
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman",
+      "blurb": "A wave of powerful technologies — above all artificial intelligence and synthetic biology — is building now and will reshape medicine, work, war, and politics within a decade.",
+      "date": "2026-10-28",
+      "audio": "assets/audio/coming-wave.mp3",
+      "summary_pdf": "assets/summaries/coming-wave.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
