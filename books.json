@@ -359,6 +359,16 @@
       "date": "2026-10-28",
       "audio": "assets/audio/coming-wave.mp3",
       "summary_pdf": "assets/summaries/coming-wave.pdf"
+    },
+    {
+      "episode": 37,
+      "slug": "what-we-can-know",
+      "title": "What We Can Know",
+      "author": "Ian McEwan",
+      "blurb": "Ian McEwan's seventeenth novel, published in 2025, is a literary mystery set a century from now about a poem nobody has ever read. In 2119, England is an archipelago after a climate catastrophe and a nuclear accident known as the Derangement.",
+      "date": "2026-10-29",
+      "audio": "assets/audio/what-we-can-know.mp3",
+      "summary_pdf": "assets/summaries/what-we-can-know.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
