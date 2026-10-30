@@ -369,6 +369,16 @@
       "date": "2026-10-29",
       "audio": "assets/audio/what-we-can-know.mp3",
       "summary_pdf": "assets/summaries/what-we-can-know.pdf"
+    },
+    {
+      "episode": 38,
+      "slug": "inner-game-of-tennis",
+      "title": "The Inner Game of Tennis",
+      "author": "Timothy Gallwey",
+      "blurb": "*The Inner Game of Tennis* argues that the hardest opponent most players ever face is not across the net but inside their own heads.",
+      "date": "2026-10-30",
+      "audio": "assets/audio/inner-game-of-tennis.mp3",
+      "summary_pdf": "assets/summaries/inner-game-of-tennis.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
