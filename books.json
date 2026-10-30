@@ -374,52 +374,97 @@
   "series": "Zains Morning Commute Books",
   "upcoming": [
     {
-      "episode": 38,
+      "episode": 39,
+      "title": "Inspired",
+      "author": "Marty Cagan"
+    },
+    {
+      "episode": 40,
+      "title": "Continuous Discovery Habits",
+      "author": "Teresa Torres"
+    },
+    {
+      "episode": 41,
+      "title": "The Lean Startup",
+      "author": "Eric Ries"
+    },
+    {
+      "episode": 42,
+      "title": "The Mom Test",
+      "author": "Rob Fitzpatrick"
+    },
+    {
+      "episode": 43,
+      "title": "Crossing the Chasm",
+      "author": "Geoffrey A. Moore"
+    },
+    {
+      "episode": 44,
+      "title": "Hooked",
+      "author": "Nir Eyal"
+    },
+    {
+      "episode": 45,
+      "title": "Chip War",
+      "author": "Chris Miller"
+    },
+    {
+      "episode": 46,
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton Christensen"
+    },
+    {
+      "episode": 47,
+      "title": "The Design of Everyday Things",
+      "author": "Don Norman"
+    },
+    {
+      "episode": 48,
+      "title": "Working Backwards",
+      "author": "Bill Carr & Colin Bryar"
+    },
+    {
+      "episode": 49,
       "title": "Wild Thing",
       "author": "Sue Prideaux"
     },
     {
-      "episode": 39,
-      "title": "The Inner Game of Tennis",
-      "author": "Timothy Gallwey"
-    },
-    {
-      "episode": 40,
+      "episode": 50,
       "title": "There Is No Place for Us",
       "author": "Brian Goldstone"
     },
     {
-      "episode": 41,
+      "episode": 51,
       "title": "The Anxious Generation",
       "author": "Jonathan Haidt"
     },
     {
-      "episode": 42,
+      "episode": 52,
       "title": "Angel Down",
       "author": "Daniel Kraus"
     },
     {
-      "episode": 43,
+      "episode": 53,
       "title": "Dead and Alive",
       "author": "Zadie Smith"
     },
     {
-      "episode": 44,
+      "episode": 54,
       "title": "Grand Transitions",
       "author": "Vaclav Smil"
     },
     {
-      "episode": 45,
+      "episode": 55,
       "title": "Mother Mary Comes to Me",
       "author": "Arundhati Roy"
     },
     {
-      "episode": 46,
+      "episode": 56,
       "title": "Abundance",
       "author": "Ezra Klein & Derek Thompson"
     },
     {
-      "episode": 47,
+      "episode": 57,
       "title": "Stranger in a Strange Land",
       "author": "Robert Heinlein"
     }
