@@ -379,6 +379,16 @@
       "date": "2026-10-30",
       "audio": "assets/audio/inner-game-of-tennis.mp3",
       "summary_pdf": "assets/summaries/inner-game-of-tennis.pdf"
+    },
+    {
+      "episode": 39,
+      "slug": "inspired",
+      "title": "Inspired",
+      "author": "Marty Cagan",
+      "audio": "assets/audio/inspired.mp3",
+      "summary_pdf": "assets/summaries/inspired.pdf",
+      "blurb": "Most products fail, and they usually fail for a preventable reason: the team built something nobody wanted, nobody could use, nobody could build, or no business could sustain. *Inspired* argues that the fix is not working harder or shipping faster.",
+      "date": "2026-10-31"
     }
   ],
   "series": "Zains Morning Commute Books",
