@@ -389,6 +389,16 @@
       "summary_pdf": "assets/summaries/inspired.pdf",
       "blurb": "Most products fail, and they usually fail for a preventable reason: the team built something nobody wanted, nobody could use, nobody could build, or no business could sustain. *Inspired* argues that the fix is not working harder or shipping faster.",
       "date": "2026-10-31"
+    },
+    {
+      "episode": 40,
+      "slug": "continuous-discovery-habits",
+      "title": "Continuous Discovery Habits",
+      "author": "Teresa Torres",
+      "audio": "assets/audio/continuous-discovery-habits.mp3",
+      "summary_pdf": "assets/summaries/continuous-discovery-habits.pdf",
+      "blurb": "Most product teams treat discovery as a phase: they research at the start of a project, write up findings, and then build for months on what they learned. Teresa Torres argues this model is broken, because learning goes stale and big bets made on old insight fail expensively.",
+      "date": "2026-11-01"
     }
   ],
   "series": "Zains Morning Commute Books",
