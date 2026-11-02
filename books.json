@@ -399,6 +399,16 @@
       "summary_pdf": "assets/summaries/continuous-discovery-habits.pdf",
       "blurb": "Most product teams treat discovery as a phase: they research at the start of a project, write up findings, and then build for months on what they learned. Teresa Torres argues this model is broken, because learning goes stale and big bets made on old insight fail expensively.",
       "date": "2026-11-01"
+    },
+    {
+      "episode": 41,
+      "slug": "lean-startup",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "blurb": "The Lean Startup (2011) by Eric Ries argues that a startup is not a smaller version of a big company, but a human institution designed to create something new under conditions of extreme uncertainty.",
+      "date": "2026-11-02",
+      "audio": "assets/audio/lean-startup.mp3",
+      "summary_pdf": "assets/summaries/lean-startup.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
