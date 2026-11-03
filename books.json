@@ -409,6 +409,16 @@
       "date": "2026-11-02",
       "audio": "assets/audio/lean-startup.mp3",
       "summary_pdf": "assets/summaries/lean-startup.pdf"
+    },
+    {
+      "episode": 42,
+      "slug": "mom-test",
+      "title": "The Mom Test",
+      "author": "Rob Fitzpatrick",
+      "blurb": "Everyone will lie to you about your idea — politely, kindly, and with the best intentions. Your mom will say she loves it because she loves you, and your friends, colleagues, and customers will do much the same.",
+      "date": "2026-11-03",
+      "audio": "assets/audio/mom-test.mp3",
+      "summary_pdf": "assets/summaries/mom-test.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
