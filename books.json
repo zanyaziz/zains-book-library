@@ -419,6 +419,16 @@
       "date": "2026-11-03",
       "audio": "assets/audio/mom-test.mp3",
       "summary_pdf": "assets/summaries/mom-test.pdf"
+    },
+    {
+      "episode": 43,
+      "slug": "crossing-the-chasm",
+      "title": "Crossing the Chasm",
+      "author": "Geoffrey A. Moore",
+      "blurb": "Every successful technology seems to follow the same story: a brilliant product launches, early enthusiasts love it, the press declares it the future — and then, mysteriously, it stalls. Revenue flattens, the mainstream never arrives, and the company fades.",
+      "date": "2026-11-04",
+      "audio": "assets/audio/crossing-the-chasm.mp3",
+      "summary_pdf": "assets/summaries/crossing-the-chasm.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
