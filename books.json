@@ -429,6 +429,16 @@
       "date": "2026-11-04",
       "audio": "assets/audio/crossing-the-chasm.mp3",
       "summary_pdf": "assets/summaries/crossing-the-chasm.pdf"
+    },
+    {
+      "episode": 44,
+      "slug": "hooked",
+      "title": "Hooked",
+      "author": "Nir Eyal",
+      "blurb": "Why do some products become habits — things we use without thinking — while most are tried once and forgotten?",
+      "date": "2026-11-05",
+      "audio": "assets/audio/hooked.mp3",
+      "summary_pdf": "assets/summaries/hooked.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
