@@ -439,6 +439,16 @@
       "date": "2026-11-05",
       "audio": "assets/audio/hooked.mp3",
       "summary_pdf": "assets/summaries/hooked.pdf"
+    },
+    {
+      "episode": 45,
+      "slug": "chip-war",
+      "title": "Chip War",
+      "author": "Chris Miller",
+      "blurb": "Every phone, car, hospital machine, and AI system on earth runs on semiconductors — tiny chips whose most advanced versions are made almost entirely in Taiwan, by one company, TSMC, using machines that only one Dutch company, ASML, can build.",
+      "date": "2026-11-06",
+      "audio": "assets/audio/chip-war.mp3",
+      "summary_pdf": "assets/summaries/chip-war.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
