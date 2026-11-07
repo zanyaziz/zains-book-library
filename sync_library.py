@@ -31,6 +31,7 @@ SITE = "https://zanyaziz.github.io/zains-book-library/"
 
 
 def kebab(text: str) -> str:
+    text = text.replace("'", "").replace("\u2019", "")
     text = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return re.sub(r"^the-", "", text)
 

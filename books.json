@@ -449,6 +449,16 @@
       "date": "2026-11-06",
       "audio": "assets/audio/chip-war.mp3",
       "summary_pdf": "assets/summaries/chip-war.pdf"
+    },
+    {
+      "episode": 46,
+      "slug": "innovators-dilemma",
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton Christensen",
+      "blurb": "The Innovator's Dilemma asks one of the strangest questions in business: why do great companies fail? Not companies that were lazy or badly run, but the best companies in their industries — the ones that listened to their customers, invested in better products, and did everything business school teaches.",
+      "date": "2026-11-07",
+      "audio": "assets/audio/innovators-dilemma.mp3",
+      "summary_pdf": "assets/summaries/innovators-dilemma.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
