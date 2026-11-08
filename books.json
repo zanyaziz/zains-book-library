@@ -459,6 +459,16 @@
       "date": "2026-11-07",
       "audio": "assets/audio/innovators-dilemma.mp3",
       "summary_pdf": "assets/summaries/innovators-dilemma.pdf"
+    },
+    {
+      "episode": 47,
+      "slug": "innovators-solution",
+      "title": "The Innovator's Solution",
+      "author": "Clayton Christensen & Michael E. Raynor",
+      "blurb": "The Innovator's Dilemma (1997) explained why great companies fail: by listening to their best customers, investing in better products, and chasing higher margins, they get disrupted from below.",
+      "date": "2026-11-08",
+      "audio": "assets/audio/innovators-solution.mp3",
+      "summary_pdf": "assets/summaries/innovators-solution.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
