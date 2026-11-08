@@ -465,56 +465,61 @@
   "upcoming": [
     {
       "episode": 47,
+      "title": "The Innovator's Solution",
+      "author": "Clayton Christensen & Michael E. Raynor"
+    },
+    {
+      "episode": 48,
       "title": "The Design of Everyday Things",
       "author": "Don Norman"
     },
     {
-      "episode": 48,
+      "episode": 49,
       "title": "Working Backwards",
       "author": "Bill Carr & Colin Bryar"
     },
     {
-      "episode": 49,
+      "episode": 50,
       "title": "Wild Thing",
       "author": "Sue Prideaux"
     },
     {
-      "episode": 50,
+      "episode": 51,
       "title": "There Is No Place for Us",
       "author": "Brian Goldstone"
     },
     {
-      "episode": 51,
+      "episode": 52,
       "title": "The Anxious Generation",
       "author": "Jonathan Haidt"
     },
     {
-      "episode": 52,
+      "episode": 53,
       "title": "Angel Down",
       "author": "Daniel Kraus"
     },
     {
-      "episode": 53,
+      "episode": 54,
       "title": "Dead and Alive",
       "author": "Zadie Smith"
     },
     {
-      "episode": 54,
+      "episode": 55,
       "title": "Grand Transitions",
       "author": "Vaclav Smil"
     },
     {
-      "episode": 55,
+      "episode": 56,
       "title": "Mother Mary Comes to Me",
       "author": "Arundhati Roy"
     },
     {
-      "episode": 56,
+      "episode": 57,
       "title": "Abundance",
       "author": "Ezra Klein & Derek Thompson"
     },
     {
-      "episode": 57,
+      "episode": 58,
       "title": "Stranger in a Strange Land",
       "author": "Robert Heinlein"
     }
