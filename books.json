@@ -469,6 +469,16 @@
       "date": "2026-11-08",
       "audio": "assets/audio/innovators-solution.mp3",
       "summary_pdf": "assets/summaries/innovators-solution.pdf"
+    },
+    {
+      "episode": 48,
+      "slug": "design-of-everyday-things",
+      "title": "The Design of Everyday Things",
+      "author": "Don Norman",
+      "date": "2026-11-09",
+      "blurb": "Every day you fight with objects that were designed by clever people who never watched a real person use them. You push a door that needs to be pulled.",
+      "audio": "assets/audio/design-of-everyday-things.mp3",
+      "summary_pdf": "assets/summaries/design-of-everyday-things.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
