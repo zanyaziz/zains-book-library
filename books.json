@@ -479,6 +479,16 @@
       "blurb": "Every day you fight with objects that were designed by clever people who never watched a real person use them. You push a door that needs to be pulled.",
       "audio": "assets/audio/design-of-everyday-things.mp3",
       "summary_pdf": "assets/summaries/design-of-everyday-things.pdf"
+    },
+    {
+      "episode": 49,
+      "slug": "working-backwards",
+      "title": "Working Backwards",
+      "author": "Bill Carr & Colin Bryar",
+      "date": "2026-11-10",
+      "blurb": "Amazon is the most customer-obsessed company in the world, and also one of the most methodical. *Working Backwards* explains how those two facts are connected.",
+      "audio": "assets/audio/working-backwards.mp3",
+      "summary_pdf": "assets/summaries/working-backwards.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
