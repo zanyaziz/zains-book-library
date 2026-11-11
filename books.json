@@ -489,6 +489,16 @@
       "blurb": "Amazon is the most customer-obsessed company in the world, and also one of the most methodical. *Working Backwards* explains how those two facts are connected.",
       "audio": "assets/audio/working-backwards.mp3",
       "summary_pdf": "assets/summaries/working-backwards.pdf"
+    },
+    {
+      "episode": 50,
+      "slug": "wild-thing",
+      "title": "Wild Thing",
+      "author": "Sue Prideaux",
+      "date": "2026-11-11",
+      "blurb": "Paul Gauguin is one of the most famous painters who ever lived, and one of the most argued about. Sue Prideaux separates the man from the persona he invented and the legend posterity built.",
+      "audio": "assets/audio/wild-thing.mp3",
+      "summary_pdf": "assets/summaries/wild-thing.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
