@@ -509,6 +509,16 @@
       "blurb": "Picture a woman who mops the floors of a public hospital's psychiatric ward on double shifts, who dreams of starting her own cleaning business, and who sleeps at night in a motel room with her children.",
       "audio": "assets/audio/there-is-no-place-for-us.mp3",
       "summary_pdf": "assets/summaries/there-is-no-place-for-us.pdf"
+    },
+    {
+      "episode": 52,
+      "slug": "anxious-generation",
+      "title": "The Anxious Generation",
+      "author": "Jonathan Haidt",
+      "date": "2026-11-13",
+      "blurb": "Sometime around 2012, childhood changed. In the space of a few short years, American children — and children across the English-speaking world — moved from a play-based childhood, spent mostly outdoors with other children, to a phone-based childhood, spent mostly indoors, alone, on a screen.",
+      "audio": "assets/audio/anxious-generation.mp3",
+      "summary_pdf": "assets/summaries/anxious-generation.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
