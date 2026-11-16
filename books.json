@@ -539,6 +539,16 @@
       "blurb": "*Dead and Alive* is Zadie Smith's fourth collection of essays: thirty pieces written between 2016 and 2025, gathered into five sections with wonderfully plain names — Eyeballing, Considering, Reconsidering, Mourning, and Confessing. It is not a novel, and it is not a memoir, although it contains the pleasures of both.",
       "audio": "assets/audio/dead-and-alive.mp3",
       "summary_pdf": "assets/summaries/dead-and-alive.pdf"
+    },
+    {
+      "episode": 55,
+      "slug": "grand-transitions",
+      "title": "Grand Transitions",
+      "author": "Vaclav Smil",
+      "blurb": "What made the modern world? Not one invention, one war, or one genius — but five enormous transitions, unfolding over two or three centuries, that remade how many of us there are, how we eat, how we power our lives, how we earn our livings, and what we are doing to the planet.",
+      "date": "2026-11-16",
+      "audio": "assets/audio/grand-transitions.mp3",
+      "summary_pdf": "assets/summaries/grand-transitions.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
