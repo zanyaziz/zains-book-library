@@ -549,6 +549,16 @@
       "date": "2026-11-16",
       "audio": "assets/audio/grand-transitions.mp3",
       "summary_pdf": "assets/summaries/grand-transitions.pdf"
+    },
+    {
+      "episode": 56,
+      "slug": "mother-mary-comes-to-me",
+      "title": "Mother Mary Comes to Me",
+      "author": "Arundhati Roy",
+      "blurb": "Arundhati Roy's first memoir is the story of her formidable mother, Mary Roy — the Kerala educator who founded a school and won a Supreme Court case giving Syrian Christian women equal inheritance rights — and of a daughter who loved her, fought her, and became a writer because of her.",
+      "date": "2026-11-17",
+      "audio": "assets/audio/mother-mary-comes-to-me.mp3",
+      "summary_pdf": "assets/summaries/mother-mary-comes-to-me.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
