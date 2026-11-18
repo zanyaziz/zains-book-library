@@ -559,6 +559,16 @@
       "date": "2026-11-17",
       "audio": "assets/audio/mother-mary-comes-to-me.mp3",
       "summary_pdf": "assets/summaries/mother-mary-comes-to-me.pdf"
+    },
+    {
+      "episode": 57,
+      "slug": "abundance",
+      "title": "Abundance",
+      "author": "Ezra Klein & Derek Thompson",
+      "blurb": "America has become very good at stopping things and very bad at building them. Homes are unaffordable in the cities where the jobs are.",
+      "date": "2026-11-18",
+      "audio": "assets/audio/abundance.mp3",
+      "summary_pdf": "assets/summaries/abundance.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
