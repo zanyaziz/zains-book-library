@@ -569,6 +569,16 @@
       "date": "2026-11-18",
       "audio": "assets/audio/abundance.mp3",
       "summary_pdf": "assets/summaries/abundance.pdf"
+    },
+    {
+      "episode": 58,
+      "slug": "stranger-in-a-strange-land",
+      "title": "Stranger in a Strange Land",
+      "author": "Robert Heinlein",
+      "blurb": "A human child raised by Martians comes to Earth and has to learn, from scratch, what it means to be human. Valentine Michael Smith does not understand money, laughter, jealousy, lying, or death — and his innocent questions expose how strange our ordinary lives really are.",
+      "date": "2026-11-19",
+      "audio": "assets/audio/stranger-in-a-strange-land.mp3",
+      "summary_pdf": "assets/summaries/stranger-in-a-strange-land.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
