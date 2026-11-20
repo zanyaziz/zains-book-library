@@ -579,6 +579,16 @@
       "date": "2026-11-19",
       "audio": "assets/audio/stranger-in-a-strange-land.mp3",
       "summary_pdf": "assets/summaries/stranger-in-a-strange-land.pdf"
+    },
+    {
+      "episode": 59,
+      "slug": "blood-and-treasure",
+      "title": "Blood and Treasure",
+      "author": "Duncan Weldon",
+      "blurb": "Blood and Treasure asks a question most history books skip: what does war cost, who pays for it, and how do the economics of paying for it shape the outcome?",
+      "date": "2026-11-20",
+      "audio": "assets/audio/blood-and-treasure.mp3",
+      "summary_pdf": "assets/summaries/blood-and-treasure.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
