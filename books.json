@@ -589,6 +589,16 @@
       "date": "2026-11-20",
       "audio": "assets/audio/blood-and-treasure.mp3",
       "summary_pdf": "assets/summaries/blood-and-treasure.pdf"
+    },
+    {
+      "episode": 60,
+      "slug": "god-ai-boom-or-doom",
+      "title": "God AI: Boom or Doom?",
+      "author": "Toby Walsh",
+      "blurb": "Are we building a god? That is the question Toby Walsh asks in God AI: Boom or Doom?, published in September 2026. In eight brisk chapters, the veteran AI researcher climbs from the Cambrian explosion of models to superintelligence and extinction risk, then back down to the limits of AI and what a good outcome requires.",
+      "date": "2026-11-21",
+      "audio": "assets/audio/god-ai-boom-or-doom.mp3",
+      "summary_pdf": "assets/summaries/god-ai-boom-or-doom.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
