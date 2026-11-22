@@ -599,6 +599,16 @@
       "date": "2026-11-21",
       "audio": "assets/audio/god-ai-boom-or-doom.mp3",
       "summary_pdf": "assets/summaries/god-ai-boom-or-doom.pdf"
+    },
+    {
+      "episode": 61,
+      "slug": "its-on-you",
+      "title": "It's On You",
+      "author": "Nick Chater & George Loewenstein",
+      "blurb": "Two of the most respected behavioral scientists alive have written a book that amounts to a confession. Nick Chater and George Loewenstein helped build the field of behavioral economics, the science behind 'nudges' — the gentle steering of individual choices that governments around the world embraced after Thaler and Sunstein's Nudge in 2008.",
+      "date": "2026-11-22",
+      "audio": "assets/audio/its-on-you.mp3",
+      "summary_pdf": "assets/summaries/its-on-you.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
