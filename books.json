@@ -609,6 +609,16 @@
       "date": "2026-11-22",
       "audio": "assets/audio/its-on-you.mp3",
       "summary_pdf": "assets/summaries/its-on-you.pdf"
+    },
+    {
+      "episode": 62,
+      "slug": "if-anyone-builds-it-everyone-dies",
+      "title": "If Anyone Builds It, Everyone Dies",
+      "author": "Nate Soares & Eliezer Yudkowsky",
+      "blurb": "Eliezer Yudkowsky and Nate Soares argue that if anyone, anywhere on Earth, builds an artificial superintelligence using anything like today's techniques, then everyone, everywhere, will die. The authors do not think the situation is hopeless — superintelligence does not exist yet, and its creation can still be prevented, but only if the world stops building toward it, together, before it is too late.",
+      "date": "2026-11-23",
+      "audio": "assets/audio/if-anyone-builds-it-everyone-dies.mp3",
+      "summary_pdf": "assets/summaries/if-anyone-builds-it-everyone-dies.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
