@@ -619,6 +619,16 @@
       "date": "2026-11-23",
       "audio": "assets/audio/if-anyone-builds-it-everyone-dies.mp3",
       "summary_pdf": "assets/summaries/if-anyone-builds-it-everyone-dies.pdf"
+    },
+    {
+      "episode": 63,
+      "slug": "on-natural-capital",
+      "title": "On Natural Capital",
+      "author": "Partha Dasgupta",
+      "blurb": "What if we put a value on nature, just as we put a value on everything else? That is the question Partha Dasgupta asks in *On Natural Capital*, and his answer is that we already do — every day, in every decision.",
+      "date": "2026-11-24",
+      "audio": "assets/audio/on-natural-capital.mp3",
+      "summary_pdf": "assets/summaries/on-natural-capital.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
