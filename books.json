@@ -629,6 +629,16 @@
       "date": "2026-11-24",
       "audio": "assets/audio/on-natural-capital.mp3",
       "summary_pdf": "assets/summaries/on-natural-capital.pdf"
+    },
+    {
+      "episode": 64,
+      "slug": "prophecy",
+      "title": "Prophecy",
+      "author": "Carissa Véliz",
+      "blurb": "We have always wanted to know the future, and someone has always been willing to sell us the answer. In *Prophecy*, Oxford philosopher Carissa Véliz traces that hunger from the oracle of Delphi to the algorithmic scoring systems of today, and argues that the point of prophecy was never really knowledge.",
+      "date": "2026-11-25",
+      "audio": "assets/audio/prophecy.mp3",
+      "summary_pdf": "assets/summaries/prophecy.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
