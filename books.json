@@ -639,6 +639,16 @@
       "date": "2026-11-25",
       "audio": "assets/audio/prophecy.mp3",
       "summary_pdf": "assets/summaries/prophecy.pdf"
+    },
+    {
+      "episode": 65,
+      "slug": "noise",
+      "title": "Noise",
+      "author": "Daniel Kahneman, Cass Sunstein & Olivier Sibony",
+      "blurb": "Every day, professionals make judgments that change lives: judges hand down sentences, doctors make diagnoses, underwriters set premiums, managers rate employees, hiring panels choose candidates. The authors call that unwanted variability noise — as damaging as bias, far more common than anyone believes, and almost entirely ignored.",
+      "date": "2026-11-26",
+      "audio": "assets/audio/noise.mp3",
+      "summary_pdf": "assets/summaries/noise.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
