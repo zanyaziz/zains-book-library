@@ -649,6 +649,16 @@
       "date": "2026-11-26",
       "audio": "assets/audio/noise.mp3",
       "summary_pdf": "assets/summaries/noise.pdf"
+    },
+    {
+      "episode": 66,
+      "slug": "rise-and-fall-of-the-artificial-state",
+      "title": "The Rise and Fall of the Artificial State",
+      "author": "Jill Lepore",
+      "blurb": "We are not being conquered by machines. We are handing them the keys. In The Rise and Fall of the Artificial State, Harvard historian Jill Lepore argues that the richest companies on earth are building a new form of rule — government by machine — and that we are sleepwalking into it, one convenient automation at a time.",
+      "date": "2026-11-27",
+      "audio": "assets/audio/rise-and-fall-of-the-artificial-state.mp3",
+      "summary_pdf": "assets/summaries/rise-and-fall-of-the-artificial-state.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
