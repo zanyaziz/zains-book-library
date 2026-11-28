@@ -659,6 +659,16 @@
       "date": "2026-11-27",
       "audio": "assets/audio/rise-and-fall-of-the-artificial-state.mp3",
       "summary_pdf": "assets/summaries/rise-and-fall-of-the-artificial-state.pdf"
+    },
+    {
+      "episode": 67,
+      "slug": "inside-the-box",
+      "title": "Inside the Box",
+      "author": "David Epstein",
+      "blurb": "We are told to think outside the box, as if freedom were the raw material of creativity. David Epstein, author of the number-one bestseller Range, argues the opposite: the right constraints — a deadline, a budget, a rule about what you will not do — are what turn broad ability into actual achievement.",
+      "date": "2026-11-28",
+      "audio": "assets/audio/inside-the-box.mp3",
+      "summary_pdf": "assets/summaries/inside-the-box.pdf"
     }
   ],
   "series": "Zains Morning Commute Books",
